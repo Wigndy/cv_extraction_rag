@@ -3,11 +3,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import os
 from pathlib import Path
 from typing import Any
 
+from langchain_ollama import ChatOllama
 import yaml
-from langchain_openai import ChatOpenAI
 
 from src.rag.db_client import ChromaResumeStore
 
@@ -25,6 +26,7 @@ class ResumeRetriever:
 
 	top_k: int
 	answer_model_name: str
+	ollama_base_url: str
 	store: ChromaResumeStore
 
 	@classmethod
@@ -34,7 +36,8 @@ class ResumeRetriever:
 		rag = config.get("rag", {})
 		return cls(
 			top_k=int(rag.get("top_k", 5)),
-			answer_model_name=rag.get("answer_model_name", "gpt-4.1-mini"),
+			answer_model_name=rag.get("answer_model_name", "qwen2.5:7b"),
+			ollama_base_url=os.getenv(rag.get("base_url_env", "OLLAMA_BASE_URL"), "http://host.docker.internal:11434"),
 			store=ChromaResumeStore.from_config(),
 		)
 
@@ -75,7 +78,11 @@ class ResumeRetriever:
 	def _generate_answer(self, query: str, contexts: list[str]) -> str:
 		"""Generate a concise answer grounded only on retrieved contexts."""
 		context_block = "\n\n".join(contexts) if contexts else "No context found."
-		model = ChatOpenAI(model=self.answer_model_name, temperature=0.0)
+		model = ChatOllama(
+			model=self.answer_model_name,
+			base_url=self.ollama_base_url,
+			temperature=0,
+		)
 		prompt = (
 			"You are a resume assistant. Use only the provided context to answer. "
 			"If information is missing, explicitly say it is not available.\n\n"

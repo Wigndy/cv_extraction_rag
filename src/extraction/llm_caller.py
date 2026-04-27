@@ -7,12 +7,15 @@ persists records into department-specific JSON files.
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import yaml
-from langchain_openai import ChatOpenAI
+from langchain.output_parsers import OutputFixingParser, PydanticOutputParser
+from langchain_ollama import ChatOllama
+from pydantic import ValidationError
 from tenacity import Retrying, stop_after_attempt, wait_fixed
 
 from src.extraction.prompt import SYSTEM_PROMPT, build_user_prompt
@@ -34,13 +37,13 @@ class ResumeLLMExtractor:
 	`ResumeExtraction` model and appends records to department-specific stores.
 	"""
 
-	model_name: str
-	temperature: float
-	timeout_seconds: int
 	max_retries: int
 	retry_wait_seconds: int
 	processed_hr_path: Path
 	processed_it_path: Path
+	ollama_base_url: str
+	model_name: str
+	temperature: float
 
 	@classmethod
 	def from_config(cls) -> "ResumeLLMExtractor":
@@ -51,13 +54,13 @@ class ResumeLLMExtractor:
 		root = Path(__file__).resolve().parents[2]
 
 		return cls(
-			model_name=extraction.get("model_name", "gpt-4.1-mini"),
-			temperature=float(extraction.get("temperature", 0.0)),
-			timeout_seconds=int(extraction.get("timeout_seconds", 60)),
 			max_retries=int(extraction.get("max_retries", 3)),
 			retry_wait_seconds=int(extraction.get("retry_wait_seconds", 2)),
 			processed_hr_path=root / paths.get("processed_hr_json", "data/processed/hr_extracted_data.json"),
 			processed_it_path=root / paths.get("processed_it_json", "data/processed/it_extracted_data.json"),
+			ollama_base_url=os.getenv(extraction.get("base_url_env", "OLLAMA_BASE_URL"), "http://host.docker.internal:11434"),
+			model_name=extraction.get("model_name", "qwen2.5:7b"),
+			temperature=float(extraction.get("temperature", 0.0)),
 		)
 
 	def extract_and_persist(self, text: str, metadata: dict[str, str]) -> ResumeRecord:
@@ -75,18 +78,25 @@ class ResumeLLMExtractor:
 		self._append_record(record)
 		return record
 
-	def _chat_model(self) -> ChatOpenAI:
-		"""Create a ChatOpenAI instance for extraction requests."""
-		return ChatOpenAI(
+	def _chat_model(self) -> ChatOllama:
+		"""Create a ChatOllama instance for extraction requests."""
+		return ChatOllama(
 			model=self.model_name,
+			base_url=self.ollama_base_url,
 			temperature=self.temperature,
-			timeout=self.timeout_seconds,
+			format="json",
 		)
 
 	def _extract_with_retry(self, text: str) -> ResumeExtraction:
-		"""Call the LLM with schema-constrained output and retry on failure."""
-		model = self._chat_model().with_structured_output(ResumeExtraction)
+		"""Call Ollama and enforce strict schema parsing with repair fallback."""
 		prompt = build_user_prompt(text)
+		parser = PydanticOutputParser(pydantic_object=ResumeExtraction)
+		fixing_parser = OutputFixingParser.from_llm(parser=parser, llm=self._chat_model())
+		full_prompt = (
+			f"{prompt}\n\n"
+			"Return only valid JSON.\n"
+			f"{parser.get_format_instructions()}"
+		)
 
 		retrying = Retrying(
 			stop=stop_after_attempt(self.max_retries),
@@ -96,12 +106,27 @@ class ResumeLLMExtractor:
 
 		for attempt in retrying:
 			with attempt:
-				return model.invoke(
+				response = self._chat_model().invoke(
 					[
 						("system", SYSTEM_PROMPT),
-						("human", prompt),
+						("human", full_prompt),
 					]
 				)
+				raw = response.content if hasattr(response, "content") else str(response)
+
+				try:
+					if isinstance(raw, list):
+						raw = "".join([str(part) for part in raw])
+					return ResumeExtraction.model_validate_json(raw)
+				except (ValidationError, json.JSONDecodeError, TypeError):
+					fixed = fixing_parser.parse(raw)
+					if isinstance(fixed, ResumeExtraction):
+						return fixed
+					if isinstance(fixed, dict):
+						return ResumeExtraction.model_validate(fixed)
+					if isinstance(fixed, str):
+						return ResumeExtraction.model_validate_json(fixed)
+					raise ValueError("Could not parse model output into ResumeExtraction")
 
 		raise RuntimeError("Extraction failed after retries")
 

@@ -28,10 +28,66 @@ This implementation uses the actual dataset labels and paths:
 pip install -r requirements.txt
 ```
 
-3. Set API keys:
+3. Configure local backend URL:
 
 ```bash
-export OPENAI_API_KEY="your_key"
+export OLLAMA_BASE_URL="http://host.docker.internal:11434"
+```
+
+## Hybrid Local Architecture (Docker App + Host Ollama)
+The Streamlit app runs in Docker, while Ollama runs natively on macOS host.
+
+### 1. Prepare host backend
+1. Start Ollama app on macOS and ensure service is running.
+2. Pull required models:
+
+```bash
+ollama pull qwen2.5:7b
+ollama pull nomic-embed-text
+```
+
+3. Install system libraries on host:
+
+```bash
+brew install tesseract poppler
+```
+
+### 2. Docker-to-host bridge
+The app container uses:
+- OLLAMA_BASE_URL=http://host.docker.internal:11434
+
+UI port remains exposed:
+- 8501:8501
+
+### 3. Manual run sequence
+1. Start Ollama on host.
+2. Start app containers:
+
+```bash
+docker compose up --build
+```
+
+3. Open browser at http://localhost:8501
+
+The UI performs backend health check. If Ollama is down, app shows not connected state.
+When Ollama is back up, click Refresh Backend Status or reload page.
+
+### 4. Optional automation
+1. Enable Ollama auto-start at login.
+2. Create startup script to open Docker Desktop and run docker compose up.
+3. Add startup script to macOS Login Items.
+
+### 5. Monitoring and shutdown
+1. Check logs:
+
+```bash
+docker compose logs -f resume-rag-app
+```
+
+2. Before shutdown:
+
+```bash
+docker compose down
 ```
 
 ## Run the Streamlit App

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+import requests
 import tempfile
 import uuid
 from pathlib import Path
@@ -33,6 +35,20 @@ def _initialize_state() -> None:
 		st.session_state.uploaded_filename = ""
 	if "last_upload_token" not in st.session_state:
 		st.session_state.last_upload_token = ""
+	if "backend_connected" not in st.session_state:
+		st.session_state.backend_connected = False
+
+
+def _ollama_health_check() -> tuple[bool, str]:
+	"""Check whether local Ollama backend is reachable from app runtime."""
+	base_url = os.getenv("OLLAMA_BASE_URL", "http://host.docker.internal:11434").rstrip("/")
+	try:
+		response = requests.get(f"{base_url}/api/tags", timeout=3)
+		if response.status_code == 200:
+			return True, f"Connected to backend at {base_url}"
+		return False, f"Backend responded with status {response.status_code} at {base_url}"
+	except requests.RequestException:
+		return False, f"Not connected to backend ({base_url})"
 
 
 def main() -> None:
@@ -42,6 +58,12 @@ def main() -> None:
 
 	st.set_page_config(page_title="Resume Parser and RAG", layout="wide")
 	st.title(config.get("ui", {}).get("title", "Resume Parser and RAG Chat"))
+	connected, backend_msg = _ollama_health_check()
+	st.session_state.backend_connected = connected
+	if connected:
+		st.success(backend_msg)
+	else:
+		st.error("Currently not connected to backend. Please start Ollama service on host.")
 
 	ingestion_router = ResumeIngestionRouter.from_config()
 	extractor = ResumeLLMExtractor.from_config()
@@ -50,6 +72,10 @@ def main() -> None:
 
 	with st.sidebar:
 		st.header("Controls")
+		st.caption(backend_msg)
+		if st.button("Refresh Backend Status"):
+			st.rerun()
+
 		context_mode = st.radio(
 			"Query Context",
 			options=["Department Base Data", "Uploaded Session Data"],
@@ -65,6 +91,10 @@ def main() -> None:
 
 		uploaded_pdf = st.file_uploader("Upload Resume PDF", type=["pdf"])
 		if uploaded_pdf is not None:
+			if not st.session_state.backend_connected:
+				st.warning("Cannot process upload because backend is disconnected.")
+				st.stop()
+
 			upload_token = f"{uploaded_pdf.name}:{uploaded_pdf.size}"
 			if upload_token != st.session_state.last_upload_token:
 				with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as temp_file:
@@ -79,20 +109,29 @@ def main() -> None:
 				metadata = payload["metadata"]
 				metadata["source_file"] = uploaded_pdf.name
 
-				extractor.extract_and_persist(text=payload["text"], metadata=metadata)
-				indexed_chunks = indexer.index_uploaded_resume(
-					text=payload["text"],
-					source_file=uploaded_pdf.name,
-					session_id=st.session_state.session_id,
-				)
-				st.success(
-					f"Processed {uploaded_pdf.name} and indexed {indexed_chunks} chunks "
-					f"for session {st.session_state.session_id}."
-				)
+				try:
+					extractor.extract_and_persist(text=payload["text"], metadata=metadata)
+					indexed_chunks = indexer.index_uploaded_resume(
+						text=payload["text"],
+						source_file=uploaded_pdf.name,
+						session_id=st.session_state.session_id,
+					)
+					st.success(
+						f"Processed {uploaded_pdf.name} and indexed {indexed_chunks} chunks "
+						f"for session {st.session_state.session_id}."
+					)
+				except Exception as exc:
+					st.error(f"Failed to process uploaded resume: {exc}")
 
 		if st.button("Index Base Dataset"):
-			chunk_count = indexer.index_base_data()
-			st.success(f"Indexed {chunk_count} base chunks.")
+			if not st.session_state.backend_connected:
+				st.warning("Cannot index base data because backend is disconnected.")
+			else:
+				try:
+					chunk_count = indexer.index_base_data()
+					st.success(f"Indexed {chunk_count} base chunks.")
+				except Exception as exc:
+					st.error(f"Failed to index base dataset: {exc}")
 
 	for message in st.session_state.messages:
 		with st.chat_message(message["role"]):
@@ -100,24 +139,31 @@ def main() -> None:
 
 	question = st.chat_input("Ask a question about resumes...")
 	if question:
+		if not st.session_state.backend_connected:
+			st.error("Currently not connected to backend. Start Ollama and try again.")
+			return
+
 		st.session_state.messages.append({"role": "user", "content": question})
 		with st.chat_message("user"):
 			st.markdown(question)
 
 		with st.chat_message("assistant"):
-			if context_mode == "Uploaded Session Data" and st.session_state.uploaded_filename:
-				result = retriever.retrieve(
-					query=question,
-					session_id=st.session_state.session_id,
-				)
-			else:
-				result = retriever.retrieve(
-					query=question,
-					department=department,
-				)
+			try:
+				if context_mode == "Uploaded Session Data" and st.session_state.uploaded_filename:
+					result = retriever.retrieve(
+						query=question,
+						session_id=st.session_state.session_id,
+					)
+				else:
+					result = retriever.retrieve(
+						query=question,
+						department=department,
+					)
 
-			st.markdown(result["answer"])
-			st.session_state.messages.append({"role": "assistant", "content": result["answer"]})
+				st.markdown(result["answer"])
+				st.session_state.messages.append({"role": "assistant", "content": result["answer"]})
+			except Exception as exc:
+				st.error(f"Query failed: {exc}")
 
 
 if __name__ == "__main__":
