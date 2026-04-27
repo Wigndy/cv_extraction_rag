@@ -1,0 +1,13 @@
+services:
+  resume-rag-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-rag-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    restart: unless-stopped

@@ -1,0 +1,53 @@
+project:
+  name: resume-parser-rag
+  version: 0.1.0
+
+paths:
+  raw_hr_dir: data/raw/HR
+  raw_it_dir: data/raw/INFORMATION-TECHNOLOGY
+  processed_hr_json: data/processed/hr_extracted_data.json
+  processed_it_json: data/processed/it_extracted_data.json
+  resume_csv: data/Resume.csv
+  vector_db_dir: data/vector_db
+
+departments:
+  hr: HR
+  it: INFORMATION-TECHNOLOGY
+
+ingestion:
+  parser: pymupdf
+  ocr:
+    engine: pytesseract
+    language: eng
+    dpi: 300
+
+extraction:
+  llm_provider: openai
+  model_name: gpt-4.1-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  timeout_seconds: 60
+  max_retries: 3
+  retry_wait_seconds: 2
+
+rag:
+  embedding_provider: huggingface
+  embedding_model_name: BAAI/bge-small-en-v1.5
+  answer_model_name: gpt-4.1-mini
+  collection_name: resumes
+  chunk_size: 800
+  chunk_overlap: 120
+  top_k: 5
+
+evaluation:
+  sample_size: 30
+  hr_sample_size: 15
+  it_sample_size: 15
+  random_seed: 42
+  metrics:
+    - context_precision
+    - answer_correctness
+
+ui:
+  title: Resume Parser and RAG Chat
+  default_context: base_data
