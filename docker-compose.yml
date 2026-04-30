@@ -1,15 +1,16 @@
 services:
-  resume-rag-app:
+  resume-rag-api:
     build:
-      context: .
+      context: ./backend
       dockerfile: Dockerfile
-    container_name: resume-rag-app
+    container_name: resume-rag-api
     ports:
-      - "8501:8501"
+      - "8000:8000"
     volumes:
-      - ./:/app
+      - ./backend:/app
     env_file:
       - .env
     environment:
       - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - PYTHONPATH=/app
     restart: unless-stopped

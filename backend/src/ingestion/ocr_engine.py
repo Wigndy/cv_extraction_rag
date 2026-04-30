@@ -48,5 +48,10 @@ class PDFOCREngine:
 				text = pytesseract.image_to_string(image, lang=self.language).strip()
 				if text:
 					page_texts.append(text)
+				
+				# Memory management: Delete image buffers immediately after each page
+				del image
+				del pixmap
+				page = None
 
 		return "\n\n".join(page_texts).strip()

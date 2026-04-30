@@ -1,14 +1,15 @@
-data/raw/HR/*
-data/raw/INFORMATION-TECHNOLOGY/*
-data/Resume.csv
-data/processed/*.json
-data/vector_db/*
+# data/raw/HR/*
+# data/raw/INFORMATION-TECHNOLOGY/*
+# data/Resume.csv
+# data/processed/*.json
+# data/vector_db/*
 
-!data/raw/HR/.gitkeep
-!data/raw/INFORMATION-TECHNOLOGY/.gitkeep
-!data/processed/.gitkeep
-!data/vector_db/.gitkeep
-
+# !data/raw/HR/.gitkeep
+# !data/raw/INFORMATION-TECHNOLOGY/.gitkeep
+# !data/processed/.gitkeep
+# !data/vector_db/.gitkeep
+data
+configs
 
 .env
 .env.*

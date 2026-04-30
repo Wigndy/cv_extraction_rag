@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import uuid
 from dataclasses import dataclass
@@ -77,6 +78,56 @@ class ResumeIndexer:
 			},
 		}
 		return self._upsert_records([record], is_base_data=False)
+
+	def upsert_chunks(self, chunks: list[dict[str, Any]], default_department: str = None) -> int:
+		"""Upsert pre-computed semantic chunks into appropriate ChromaDB collection."""
+		if not chunks:
+			return 0
+
+		collections_data = {}
+		
+		for index, chunk in enumerate(chunks):
+			text = str(chunk.get("text", "")).strip()
+			if not text:
+				continue
+			
+			raw_metadata = chunk.get("metadata", {})
+			dept = raw_metadata.get("department", default_department) or "unknown"
+			chunk_type = raw_metadata.get("chunk_type", "misc")
+			source_file = raw_metadata.get("source_file", "unknown")
+			
+			clean_metadata = {
+				"department": dept.lower(),
+				"chunk_type": chunk_type,
+				"source_file": source_file
+			}
+				
+			coll_name = f"{dept.lower()}_collection"
+			
+			if coll_name not in collections_data:
+				collections_data[coll_name] = {"ids": [], "docs": [], "metadatas": []}
+				
+			hash_id = hashlib.md5(f"{source_file}_{chunk_type}_{index}".encode()).hexdigest()
+			
+			collections_data[coll_name]["ids"].append(f"id_{hash_id}")
+			collections_data[coll_name]["docs"].append(text)
+			collections_data[coll_name]["metadatas"].append(clean_metadata)
+			
+		total_inserted = 0
+		for coll_name, data in collections_data.items():
+			if not data["ids"]:
+				continue
+				
+			target_collection = self.store.get_collection(collection_name=coll_name)
+			
+			target_collection.upsert(
+				ids=data["ids"],
+				documents=data["docs"],
+				metadatas=data["metadatas"]
+			)
+			total_inserted += len(data["ids"])
+			
+		return total_inserted
 
 	def _load_records(self, path: Path, department: str) -> list[dict[str, Any]]:
 		"""Load parsed records from disk and normalize minimal index payload."""
