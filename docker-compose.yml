@@ -13,4 +13,5 @@ services:
     environment:
       - OLLAMA_BASE_URL=http://host.docker.internal:11434
       - PYTHONPATH=/app
+      - ANONYMIZED_TELEMETRY=False
     restart: unless-stopped
