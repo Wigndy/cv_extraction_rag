@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import json
 
-BACKEND_URL = "http://localhost:8000"
+# BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://heading-quill-lizard.ngrok-free.dev"
 
 def check_backend_health():
     try:
@@ -34,7 +35,7 @@ with st.sidebar:
     
     department = None
     if context_mode == "Department Base Data":
-        department = st.selectbox("Chọn Department Database:", ["HR", "IT"])
+        department = st.selectbox("Chọn Department Database:", ["HR", "Information-Technology"])
         
     st.markdown("---")
     st.header("2. Upload CV mới (Dynamic Pipeline)")

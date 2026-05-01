@@ -58,12 +58,7 @@ class ResumeRetriever:
 			coll_name = f"{department.lower()}_collection"
 			collection = self.store.get_collection(collection_name=coll_name)
 
-			dept_map = {
-				"it": "INFORMATION-TECHNOLOGY",
-				"hr": "HR"
-			}
-			db_dept_name = dept_map.get(department.lower(), department.upper())
-			where_filter = {"department": db_dept_name}
+			where_filter = {"department": department.lower()}
 
 			file_match = re.search(r'(\d+\.pdf)', query)
 			if file_match:
