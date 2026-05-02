@@ -5,19 +5,46 @@ import uuid
 import os
 from pathlib import Path
 import chromadb
+from contextlib import asynccontextmanager
 
 from src.extraction.processor import ResumeExtractor
 from src.ingestion.router import ResumeIngestionRouter
 from src.rag.indexer import ResumeIndexer
 from src.rag.retriever import ResumeRetriever
 
-app = FastAPI(title="Resume RAG API")
-
 # Initialize components globally
 ingestion_router = ResumeIngestionRouter.from_config()
 extractor = ResumeExtractor()
 indexer = ResumeIndexer.from_config()
 retriever = ResumeRetriever.from_config()
+
+def cleanup_orphan_collections():
+    """Hàm dọn dẹp tất cả các collection rác (bắt đầu bằng temp_cv_)"""
+    try:
+        client = chromadb.PersistentClient(path=str(indexer.store.persist_path))
+        collections = client.list_collections()
+        for c in collections:
+            if c.name.startswith("temp_cv_"):
+                try:
+                    client.delete_collection(name=c.name)
+                    print(f"✅ Đã dọn dẹp rác: {c.name}")
+                except Exception as e:
+                    print(f"❌ Lỗi khi xóa {c.name}: {e}")
+    except Exception as e:
+        print(f"❌ Lỗi kết nối ChromaDB khi dọn rác: {e}")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Chạy khi FastAPI khởi động
+    print("🚀 Đang khởi động FastAPI: Bắt đầu dọn dẹp rác dữ liệu cũ...")
+    cleanup_orphan_collections()
+    yield
+    # Chạy khi FastAPI tắt
+    print("🛑 Đang tắt FastAPI...")
+
+app = FastAPI(title="Resume RAG API", lifespan=lifespan)
+
+
 
 class QueryRequest(BaseModel):
     query: str
@@ -112,8 +139,8 @@ def query(req: QueryRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.delete("/api/cleanup/{session_id}")
-def cleanup_session(session_id: str):
+@app.delete("/api/session/{session_id}")
+def delete_session(session_id: str):
     """Xóa collection tạm thời khi người dùng kết thúc phiên."""
     try:
         coll_name = f"temp_cv_{session_id}_collection"

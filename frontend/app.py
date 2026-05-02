@@ -71,7 +71,7 @@ with st.sidebar:
     if st.button("🗑 Xóa CV / Clear Session"):
         with st.spinner("Đang xóa dữ liệu tạm thời..."):
             try:
-                res = requests.delete(f"{BACKEND_URL}/api/cleanup/{st.session_state.session_id}")
+                res = requests.delete(f"{BACKEND_URL}/api/session/{st.session_state.session_id}")
                 if res.status_code == 200:
                     st.success("Đã xóa dữ liệu tạm thời của phiên này.")
                     # Sinh ID mới cho phiên tiếp theo để tránh xung đột
