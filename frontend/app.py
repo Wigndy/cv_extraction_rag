@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import uuid
 
 # BACKEND_URL = "http://localhost:8000"
 BACKEND_URL = "https://heading-quill-lizard.ngrok-free.dev"
@@ -22,8 +23,9 @@ st.title("AI CV Analysis & RAG Pipeline")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
-if "session_id" not in st.session_state:
-    st.session_state.session_id = None
+if "session_id" not in st.session_state or st.session_state.session_id is None:
+    st.session_state.session_id = str(uuid.uuid4())
+    st.session_state.has_uploaded = False
 
 with st.sidebar:
     st.header("1. Cấu hình tìm kiếm")
@@ -46,18 +48,40 @@ with st.sidebar:
             with st.spinner("Đang chạy luồng Ingestion -> LLM Extraction -> Chunking -> Temp Collection..."):
                 try:
                     files = {"file": (uploaded_pdf.name, uploaded_pdf.getvalue(), "application/pdf")}
-                    data = {"department": "temp_session", "extraction_mode": "Auto"}
+                    data = {
+                        "department": "temp_session", 
+                        "extraction_mode": "Auto",
+                        "session_id": st.session_state.session_id
+                    }
                     res = requests.post(f"{BACKEND_URL}/api/upload", files=files, data=data)
                     
                     if res.status_code == 200:
                         payload = res.json()
                         st.session_state.session_id = payload.get("session_id")
+                        st.session_state.has_uploaded = True
                         st.success(f"Xử lý thành công! Đã tạo {payload.get('indexed_chunks')} chunks.")
                         st.info("Chuyển chế độ dữ liệu sang 'Uploaded Session Data' để chat với CV này.")
                     else:
                         st.error(f"Lỗi từ Backend: {res.text}")
                 except Exception as e:
                     st.error(f"Lỗi kết nối: {str(e)}")
+                    
+    st.markdown("---")
+    st.header("3. Dọn dẹp dữ liệu (Cleanup)")
+    if st.button("🗑 Xóa CV / Clear Session"):
+        with st.spinner("Đang xóa dữ liệu tạm thời..."):
+            try:
+                res = requests.delete(f"{BACKEND_URL}/api/cleanup/{st.session_state.session_id}")
+                if res.status_code == 200:
+                    st.success("Đã xóa dữ liệu tạm thời của phiên này.")
+                    # Sinh ID mới cho phiên tiếp theo để tránh xung đột
+                    st.session_state.session_id = str(uuid.uuid4())
+                    st.session_state.has_uploaded = False
+                    st.session_state.messages = []
+                else:
+                    st.error(f"Lỗi từ Backend: {res.text}")
+            except Exception as e:
+                st.error(f"Lỗi kết nối: {str(e)}")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -65,7 +89,7 @@ for message in st.session_state.messages:
 
 question = st.chat_input("Hỏi về ứng viên...")
 if question:
-    if context_mode == "Uploaded Session Data" and not st.session_state.session_id:
+    if context_mode == "Uploaded Session Data" and not st.session_state.get("has_uploaded", False):
         st.warning("Vui lòng tải lên và xử lý một CV trước khi chat ở chế độ Uploaded Session Data.")
         st.stop()
         

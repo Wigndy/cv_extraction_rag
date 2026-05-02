@@ -48,10 +48,9 @@ class ResumeRetriever:
 	def retrieve(self, query: str, department: str = None, session_id: str = None) -> dict[str, Any]:
 		"""Retrieve documents from ChromaDB and return answer with source coordinates."""
 		if session_id:
-			coll_name = "temp_session_collection"
+			coll_name = f"temp_cv_{session_id}_collection"
 			collection = self.store.get_collection(collection_name=coll_name)
 			where_filter = {"session_id": session_id}
-			db_dept_name = "temp_session"
 		else:
 			if not department:
 				department = "hr"

@@ -4,6 +4,7 @@ import tempfile
 import uuid
 import os
 from pathlib import Path
+import chromadb
 
 from src.extraction.processor import ResumeExtractor
 from src.ingestion.router import ResumeIngestionRouter
@@ -32,7 +33,8 @@ def health_check():
 async def upload_resume(
     file: UploadFile = File(...),
     department: str = Form(...),
-    extraction_mode: str = Form("Auto")
+    extraction_mode: str = Form("Auto"),
+    session_id: str = Form(...)
 ):
     try:
         with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
@@ -41,7 +43,6 @@ async def upload_resume(
             tmp_path = Path(tmp.name)
         
         payload = ingestion_router.ingest(tmp_path, department=department, extraction_mode=extraction_mode)
-        session_id = str(uuid.uuid4())
         
         metadata = payload["metadata"]
         metadata["source_file"] = file.filename
@@ -59,15 +60,16 @@ async def upload_resume(
 
         # Extract structured data
         extracted_data = extractor.extract(digital_text=digital_text, visual_text=visual_text)
+        extracted_dict = extracted_data.model_dump(mode='json') if hasattr(extracted_data, 'model_dump') else extracted_data
         
         # Build record for chunker
         record = {
             "metadata": {
                 "source_file": file.filename,
-                "department": "temp_session",
+                "department": f"temp_cv_{session_id}",
                 "session_id": session_id
             },
-            "extracted": extracted_data
+            "extracted": extracted_dict
         }
         
         # Generate semantic chunks
@@ -107,5 +109,30 @@ def query(req: QueryRequest):
         else:
             result = retriever.retrieve(query=req.query, department=req.department)
         return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.delete("/api/cleanup/{session_id}")
+def cleanup_session(session_id: str):
+    """Xóa collection tạm thời khi người dùng kết thúc phiên."""
+    try:
+        coll_name = f"temp_cv_{session_id}_collection"
+        client = chromadb.PersistentClient(path=str(indexer.store.persist_path))
+        try:
+            client.delete_collection(name=coll_name)
+            return {"message": f"Deleted collection {coll_name}"}
+        except ValueError:
+            return {"message": f"Collection {coll_name} does not exist"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/debug/collections")
+def list_collections():
+    """Liệt kê toàn bộ các collection đang tồn tại trong ChromaDB."""
+    try:
+        client = chromadb.PersistentClient(path=str(indexer.store.persist_path))
+        collections = client.list_collections()
+        result = [{"name": c.name, "count": c.count()} for c in collections]
+        return {"collections": result}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
