@@ -50,7 +50,7 @@ class ResumeRetriever:
 		if session_id:
 			coll_name = f"temp_cv_{session_id}_collection"
 			collection = self.store.get_collection(collection_name=coll_name)
-			where_filter = {"session_id": session_id}
+			where_filter = None
 		else:
 			if not department:
 				department = "hr"
@@ -69,18 +69,21 @@ class ResumeRetriever:
 					]
 				}
 
-		retrieved_chunks = collection.query(
-			query_texts=[query],
-			# n_results=self.top_k,
-			n_results=10,
-			where=where_filter,
-		)
+		query_params = {
+			"query_texts": [query],
+			"n_results": 5,
+		}
+		if where_filter:
+			query_params["where"] = where_filter
+
+		retrieved_chunks = collection.query(**query_params)
 		documents = retrieved_chunks.get("documents", [[]])[0]
 		metadatas = retrieved_chunks.get("metadatas", [[]])[0]
 		
 		if not documents:
+			dept_name = department.upper() if department else "TẠM THỜI (Uploaded CV)"
 			return {
-				"answer": f"Không tìm thấy dữ liệu cho yêu cầu này trong hệ thống {department.upper()}.",
+				"answer": f"Không tìm thấy dữ liệu cho yêu cầu này trong hệ thống {dept_name}.",
 				"source_coordinates": []
 			}
 		
