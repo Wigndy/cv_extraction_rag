@@ -1,35 +1,35 @@
-"""Metric helpers for context precision and answer correctness."""
+import time
+from typing import List
 
-from __future__ import annotations
+def calculate_hit_rate(expected_id: str, retrieved_sources: List[str]) -> bool:
+    """
+    Tính toán Exact Match Hit Rate.
+    Kiểm tra xem ID dự kiến (expected_id) có xuất hiện trong danh sách 
+    các source_file được truy xuất từ ChromaDB hay không.
+    Ví dụ: expected_id = '10694288' -> Tìm kiếm '10694288.pdf' trong retrieved_sources.
+    """
+    expected_file = f"{expected_id}.pdf"
+    return expected_file in retrieved_sources
 
-from dataclasses import dataclass
-from typing import Any
+class LatencyTracker:
+    """
+    Công cụ đo lường độ trễ (Latency) cho các pipeline RAG.
+    """
+    def __init__(self):
+        self.start_time = None
+        self.end_time = None
 
-from datasets import Dataset
-from ragas import evaluate
-from ragas.metrics import answer_correctness, context_precision
+    def start(self):
+        """Bắt đầu đo thời gian."""
+        self.start_time = time.time()
 
+    def stop(self):
+        """Kết thúc đo thời gian."""
+        self.end_time = time.time()
 
-@dataclass(slots=True)
-class RagasEvaluator:
-	"""Evaluate RAG quality with context precision and answer correctness."""
-
-	def evaluate_rows(self, rows: list[dict[str, Any]]) -> dict[str, float]:
-		"""Run RAGAS metrics on rows and return mean scores.
-
-		Args:
-			rows: List containing `question`, `reference`, `response`,
-				and `retrieved_contexts`.
-
-		Returns:
-			Dictionary with aggregated metric values.
-		"""
-		if not rows:
-			return {"context_precision": 0.0, "answer_correctness": 0.0}
-
-		dataset = Dataset.from_list(rows)
-		result = evaluate(dataset=dataset, metrics=[context_precision, answer_correctness])
-		return {
-			"context_precision": float(result["context_precision"]),
-			"answer_correctness": float(result["answer_correctness"]),
-		}
+    @property
+    def latency(self) -> float:
+        """Trả về thời gian trôi qua tính bằng giây."""
+        if self.start_time and self.end_time:
+            return self.end_time - self.start_time
+        return 0.0

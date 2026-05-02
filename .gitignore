@@ -14,13 +14,14 @@ backend/data/*
 !backend/data/temp/
 !backend/data/processed/
 !backend/data/chunks/
+!backend/data/evaluation/
 
 # Allow .gitkeep files to be tracked
 !.gitkeep
 !backend/data/temp/.gitkeep
 !backend/data/processed/.gitkeep
 !backend/data/chunks/.gitkeep
-
+!backend/data/evaluation/.gitkeep
 configs
 
 .env
