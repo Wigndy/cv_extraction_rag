@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 20879311.pdf\nIDENTITY: Candidate Profile (20879311.pdf)\nSUMMARY: Accomplished senior manager with over 15 years of experience leading complex projects and managing resources to optimize enterprise technology and support business objectives. Committed to quality and service excellence with aptitude for launching new technology platforms.\nSKILLS: Active Directory, Antivirus, Asset management, Backup Exec, Business systems, Cabling, Cisco, Competitive, Hardware, Consulting, Contract negotiation, Conversion, Credit, Client, Databases, DHCP, Disaster Recovery, Documentation, DNS, Due diligence, Enterprise Resource Planning, Firewalls, FTP, Ghost, Help desk, IIS, Imaging, Information Technology, IP, IT support, LAN, Laptops, Team Leadership, Logistics, Loss Prevention, Managing, Market, Mentoring, Exchange, Microsoft Exchange 2003, Microsoft Office Suite, SharePoint, Windows, Windows 2000, Windows NT, Migration, Enterprise, Network security, Networking, Next, OS, Policies, Problem resolution, Processes, Process improvement, Procurement, Project Management, Proposal Development, Requirements Analysis, Routers, SAN, Sarbanes-Oxley, Servers, Service Level Agreement, Sound, SQL, Strategy, Strategic Planning, Switches, Symantec, TCP/IP, Telecommunications, Telephony, Troubleshooting, Upgrades",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 20879311.pdf\nJOB TITLE: Director of Information Technology and Analytics\nCOMPANY: Company Name, City, State\nDATES: January 2005 - Present\nDESCRIPTION: Directed the firm's worldwide IT strategy. Established policies to mitigate corporate security risk and position ZAIS for Sarbanes-Oxley compliance. Managed a team of 6 resources responsible for technology management and support operations. Directed project teams through all lifecycle phases handling technical escalation events.",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20879311.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Company Name, City, State\nDATES: January 2002 - January 2005\nDESCRIPTION: Directed hardware and software configuration, installation, troubleshooting, and support activities. Oversaw network infrastructure administration.",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20879311.pdf\nJOB TITLE: Systems Administrator\nCOMPANY: Company Name, City, State\nDATES: January 2000 - January 2002\nDESCRIPTION: Administered and supported a Windows NT environment. Planned and configured the upgrade of Windows NT to Windows 2000.",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20879311.pdf\nJOB TITLE: Data/Systems Administrator\nCOMPANY: Company Name, State\nDATES: January 1998 - January 2000\nDESCRIPTION: Oversee and modify the daily download of data from several distributors. Uploaded data to appropriate SQL databases.",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20879311.pdf\nDEGREE: \nINSTITUTION: Rutgers University, City, State\nDATES: 1998",
+        "metadata": {
+            "source_file": "20879311.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

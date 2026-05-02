@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 20408458.pdf\nIDENTITY: Candidate Profile (20408458.pdf)\nSUMMARY: Experienced IT professional with a strong background in network support, data migration, and systems management. Proficient in using various tools and technologies including Robocopy, Active Directory, and Remote Desktop Connection.\nSKILLS: A+, Active Directory, Apollo, ARMY, CMOS and BIOS, Data Migration, DELL, Email, Engineer, Flash, HP, IBM, Image, INTEL, Inventory, laptops, leadership, logging, meetings, MICROSOFT Software, access, MCSE, MOS, Outlook, SharePoint, Windows, migration, NDS, Network Attached Storage (NAS), network support, network, Novel, Netware, pdf, peripherals, personnel, processors, receiving, recruiting, reporting, retail, servers, scripts, Shipping, installing Software, Systems Analyst, desktop support, Troubleshoot, type, upgrade, vb",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 20408458.pdf\nJOB TITLE: \nCOMPANY: Apollo / SunTrust\nDATES: 12/2009 - 05/2010\nDESCRIPTION: Managed data migration projects, coordinated with non-branch personnel, and performed remote access tasks to manage user directories.",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20408458.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 07/2009 - 10/2009\nDESCRIPTION: Installed SigCap devices, performed hardware inventory and configuration tasks, and provided support to retail stores.",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20408458.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 12/2008 - 05/2009\nDESCRIPTION: Deployed PC and peripherals, managed server installations, and documented hardware inventory.",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20408458.pdf\nDEGREE: Bachelor of Science in Information Technology\nINSTITUTION: University of Phoenix\nDATES: Oct 2011",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 20408458.pdf\nDEGREE: Associate of Arts in Paralegal Network Engineering\nINSTITUTION: Southern College\nDATES: 2001",
+        "metadata": {
+            "source_file": "20408458.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

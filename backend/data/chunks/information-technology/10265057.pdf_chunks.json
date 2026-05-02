@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 10265057.pdf\nIDENTITY: Candidate Profile (10265057.pdf)\nSUMMARY: Experienced in developing hardware's DFM procedures, checklists and requirements to subcontractors. Perform EVT, DVT, PVT verifications and utilize FA process to drive root cause from system to unit level. Team leader on multiple end-to-end technical project design, development, testing and validation.\nSKILLS: RF/Microwave software: Ansoft Designer, AWR Microwave Office, RF test instruments: Spectrum analyzer, Vector Network/Signal Analyzer, Logic Analyzer, Programming languages: C/C++, Python, Java, Matlab, LabView, Circuit design software: SPICE, NI Multisim, PCB design software: Eagle, PCB Artiest, Data acquisition and signal processing using Matlab, big data, charts, Circuit design, hardware, Data acquisition, data analyst, data collection, data mining, databases, dBm, DTI, design software, documentation, functional, GSM, innovation, Java, LabView, Logic Analyzer, Mac, manufacturing processes, Microsoft office, Microwave, Radar, NCs, Network, dB, packaging, pivot tables, Programming, project design, proposals, Python, quality, requirement, research, SAS, self-starter, Spectrum analyzer, SPSS, SQL, SSL, statistics, surveys, system design, troubleshooting, validation",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 10265057.pdf\nJOB TITLE: Working RF Systems Engineer\nCOMPANY: Company Name\nDATES: May 2014 - Current\nDESCRIPTION: Developed DFM procedures for RF hardware designs. Performed EVT, DVT, PVT verifications and utilized FA process to drive root cause from system to unit level. Led multiple technical projects in design, development, testing, and validation.",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10265057.pdf\nJOB TITLE: System Data Analyst\nCOMPANY: Company Name\nDATES: August 2011 - December 2013\nDESCRIPTION: Prioritized and extracted big data from Purdue University's SQL database. Developed data collection systems strategies to optimize statistical efficiency and data quality.",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10265057.pdf\nJOB TITLE: Electrical/Validation Engineer\nCOMPANY: Company Name\nDATES: May 2011 - August 2011\nDESCRIPTION: Developed data requirements for PCBA EVT, DVT, and PVT assembly. Designed automated tests for various functionalities.",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10265057.pdf\nDEGREE: M.S. Electrical and Computer Engineering\nINSTITUTION: Purdue University\nDATES: Dec. 2013",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 10265057.pdf\nDEGREE: B.S. Electrical and Computer Engineering\nINSTITUTION: Purdue University\nDATES: Dec. 2011",
+        "metadata": {
+            "source_file": "10265057.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

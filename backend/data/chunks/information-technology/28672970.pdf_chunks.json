@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 28672970.pdf\nIDENTITY: Candidate Profile (28672970.pdf)\nSUMMARY: Innovative and quality-driven IT executive with over 20 years of experience in high-performance environments. Expertise in strategy, project management, and infrastructure design.\nSKILLS: Innovative Leadership, Change Management, Infrastructure Design, Strategic Planning, Technology Development, Collaboration and Liaison, P & L Oversight, Organizational Development, Mentoring and Coaching, Cisco Certified Engineer, ERP, Finance, Human Resources, Information Security, IT, Windows 7, Windows XP, Migration, Needs Analysis, Network Administrator, Project Management, Purchasing, Reporting, Seminars",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 28672970.pdf\nJOB TITLE: \nCOMPANY: Company Name City, State\nDATES: 08/2005 to Current\nDESCRIPTION: Managed software development and infrastructure projects. Directed daily operations and vendor relationships. Developed change management processes and provided 24x7 technical support.",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28672970.pdf\nJOB TITLE: \nCOMPANY: Company Name City, State\nDATES: 02/2003 to 07/2005\nDESCRIPTION: Provided leadership in IT department. Directed supervision and ensured proper training for users.",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28672970.pdf\nJOB TITLE: \nCOMPANY: Company Name City, State\nDATES: 07/1998 to 01/2003\nDESCRIPTION: Responsible for IT project planning and implementation. Managed vendor relationships and ensured system compatibility.",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28672970.pdf\nDEGREE: Bachelor of Science in Industrial Psychology\nINSTITUTION: University of Santo Tomas - Manila Philippines\nDATES: 1985",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 28672970.pdf\nDEGREE: Associates Degree in Computer Science\nINSTITUTION: Baruch College City\nDATES: 1995",
+        "metadata": {
+            "source_file": "28672970.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

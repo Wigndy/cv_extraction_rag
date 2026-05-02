@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 12763627.pdf\nIDENTITY: Candidate Profile (12763627.pdf)\nSUMMARY: Experienced ASP.Net Web Developer with a Master's in Computer Science. Won Associate of the Month award at CYIENT and was part of the team that won Team of the Month for projects such as DEBTS and eRFA.\nSKILLS: .net, ASP.NET 4.0/3.5/2.0, MVC 4, C#, SharePoint 2010, SQL Server 2005/2008 R2, MySQL, Oracle, HTML, CSS, JavaScript, Bootstrap, JIRA Source Controls: Team Foundation Sever, GitHub, Visual Source Safe",
+        "metadata": {
+            "source_file": "12763627.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 12763627.pdf\nJOB TITLE: ASP.Net Web Developer\nCOMPANY: Company Name City, State\nDATES: April 2015 - Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "12763627.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12763627.pdf\nJOB TITLE: Software Engineer\nCOMPANY: Company Name City, State\nDATES: July 2011 - July 2014\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "12763627.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12763627.pdf\nDEGREE: Masters in Computer Science\nINSTITUTION: Indiana University - Bloomington\nDATES: August 2014 - December 2015",
+        "metadata": {
+            "source_file": "12763627.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 12763627.pdf\nDEGREE: Bachelor of Technology in Computer Science and Engineering\nINSTITUTION: Jawaharlal Nehru Technological University, Andhra Pradesh, India\nDATES: September 2007 - May 2011",
+        "metadata": {
+            "source_file": "12763627.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

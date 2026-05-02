@@ -1,0 +1,74 @@
+[
+    {
+        "text": "SOURCE: 27523575.pdf\nIDENTITY: Candidate Profile (27523575.pdf)\nSUMMARY: Innovative and artistic professional with 6 years in the fashion industry, self-motivated and results-driven with strong communication, analytical, problem solving and reasoning skills.\nSKILLS: Administrative Management, Problem Solving, POS, Human Resources, Time Management, Customer Service, Critical Thinking, Organizational Skills, People Skills",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: HR Associate\nCOMPANY: Company Name City, State\nDATES: Jan 2015 to Current\nDESCRIPTION: ['Recruit and interview at least 10 applicants per week.', 'Answer employee questions regarding benefits and company protocol as well as resolving any issues.', 'Conduct new employee orientation.', 'Direct personnel, training, and labor relations activities.', 'Identify staff vacancies and recruit, interview, and select applicants.', 'Serve as a link between management and employees.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: Cashier Captain\nCOMPANY: Company Name City, State\nDATES: Feb 2014 to Sep 2014\nDESCRIPTION: ['Maintained knowledge of current promotions, policies regarding payment and exchanges, and security practices.', 'Processed cash, check, and credit card transactions.', 'Administered POS opening and closing procedures.', 'Offered exceptional customer service.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: Sales Associate\nCOMPANY: Company Name City, State\nDATES: Nov 2013 to Feb 2014\nDESCRIPTION: ['Explained product information and influenced buying decisions.', 'Guided customers in choosing items.', 'Recommended merchandise.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: Cashier, Shipment Associate\nCOMPANY: Company Name City, State\nDATES: Nov 2010 to Jan 2014\nDESCRIPTION: ['Computed sales prices and processed payments.', 'Maintained knowledge of current promotions, policies regarding payment and exchanges, and security practices.', 'Processed cash, check, and credit card transactions.', 'Replenished floor stock and processed shipments.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: Administrative Assistant\nCOMPANY: Company Name City, State\nDATES: Aug 2011 to Dec 2012\nDESCRIPTION: ['Managed receptionist area.', 'Designed electronic file systems and maintained files.', 'Maintained front desk in a neat and organized fashion.', 'Dispersed incoming mail.', 'Organized files, developed spreadsheets, faxed reports, and scanned documents.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nJOB TITLE: 1st and 2nd Grade Sunday School Teacher\nCOMPANY: Company Name City, State\nDATES: Oct 2009 to May 2010\nDESCRIPTION: ['Planned lessons and created classroom materials.', 'Established rules for behavior.', 'Created child-based hands-on curriculum.']",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nDEGREE: \nINSTITUTION: Eugene Lang College The New School for Liberal Arts City, State\nDATES: 2015",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 27523575.pdf\nDEGREE: \nINSTITUTION: University of Massachusetts Amherst City, State\nDATES: ",
+        "metadata": {
+            "source_file": "27523575.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

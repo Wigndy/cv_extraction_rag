@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 91930382.pdf\nIDENTITY: Candidate Profile (91930382.pdf)\nSUMMARY: Maintains a positive attitude under pressure and welcomes the challenge of producing results quickly for clients.\nSKILLS: Bullhorn, Boolean Searches, Google Resume Search, LinkedIn X-ray search, The Ladder, GitHub, Tech Fetch, Monster, Career Builder, LinkedIn, Indeed",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nJOB TITLE: HR Intern\nCOMPANY: City, State\nDATES: Feb 2016 to Current\nDESCRIPTION: General recruitment with university focus, job postings, screening, tracking personnel lists.",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nJOB TITLE: Human Resources Assistant\nCOMPANY: Company Name, City, State\nDATES: Feb 2016 to Current\nDESCRIPTION: Job descriptions, employee information systems, personnel records, job analysis, and evaluations.",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nJOB TITLE: Freelancer\nCOMPANY: City, State\nDATES: Jan 2015 to Jan 2016\nDESCRIPTION: Waiting for employment authorization and permanent residency in the US.",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nJOB TITLE: Recruiter\nCOMPANY: Company Name, City\nDATES: Jan 2011 to Jan 2015\nDESCRIPTION: End-to-end recruitment, sourcing, screening, reference checks, negotiation, and offer generation.",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nDEGREE: \nINSTITUTION: University of Washington, State\nDATES: Present",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nDEGREE: \nINSTITUTION: State, India\nDATES: 2011",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 91930382.pdf\nDEGREE: \nINSTITUTION: Mount Carmel College, India\nDATES: 2009",
+        "metadata": {
+            "source_file": "91930382.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

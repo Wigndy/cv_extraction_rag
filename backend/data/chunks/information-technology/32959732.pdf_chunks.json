@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 32959732.pdf\nIDENTITY: Candidate Profile (32959732.pdf)\nSUMMARY: Experienced IT leader with a proven track record of driving technology initiatives and improving operational efficiency. Skilled in managing teams, negotiating vendor contracts, and implementing cloud-based solutions.\nSKILLS: Enterprise Resource Planning Systems, Education Software: Campus Nexus Student, Student and Faculty portal, Accounting Systems: Sage Platinum, Microsoft Great Plains, AccountMate, SAP Business One, Learning Management Systems: Dialoge EDU; eCollege; Moodle Rooms, Manufacturing Systems: BatchMaster, Customer Relationship Management Systems: Microsoft Great Plains CRM, Campus Nexus CRM, Enterprise BackOffice Systems, Microsoft Server, Microsoft SQL server, Microsoft Exchange, Microsoft SharePoint, Linux, Storage Area Network, Active Directory, Microsoft Terminal Services, Microsoft Remote desktop Services, Network Devices and Monitoring Tools: Juniper switches, routers and firewalls; Netgear switches, routers and firewalls; CISCO switches, routers and firewalls; Solarwinds network monitoring tools, Sophos Unified Threat Management, IDERA SQL Management, WebSense, Virtual System: VMware, HyperV, Cloud based phone systems, Cloud based storage and backup, Cloud Technologies: Amazon Web Services, Microsoft Azure and 0365, Miscellaneous Applications and Desktop Applications: Microsoft Office suite, Sophos Antivirus, Sophos Mobile Device Management, DeepFreeze Desktop management",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nJOB TITLE: Senior Director, Information Technology\nCOMPANY: Weston Educational Group Inc\nDATES: 02/2015 to 11/2016\nDESCRIPTION: ['Oversaw the day-to-day operations of all aspects of technology.', 'Led the migration of phone systems and SIS to cloud-based solutions.', 'Reduced IT costs by restructuring teams and outsourcing specialized functions.', 'Integrated cross-functional initiatives for smooth campus integration.']",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nJOB TITLE: Senior Manager, Student Information System\nCOMPANY: American Career College and West Coast University\nDATES: 07/2009 to 02/2015\nDESCRIPTION: ['Managed SIS for student matriculation from leads through career services.', 'Migrated phone systems to cloud-based solutions achieving 99.999% uptime.', 'Reduced IT costs by restructuring teams and outsourcing specialized functions.', 'Led cross-functional initiatives for smooth campus integration.']",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nJOB TITLE: President\nCOMPANY: Aldreteem Inc\nDATES: 01/2005 to 08/2009\nDESCRIPTION: ['Led the creation of a business supporting ERP implementation for small to mid-sized organizations.', 'Generated new revenue streams through strategic partnerships with ERP vendors.', 'Managed all aspects of the business, focusing on customer satisfaction and profitability.']",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nJOB TITLE: Director, Client Services\nCOMPANY: BatchMaster Software Inc\nDATES: 03/2001 to 12/2004\nDESCRIPTION: ['Created a client services group for manufacturing ERP implementations.', 'Increased revenue by 60% through the creation of this new department.', 'Implemented rapid implementation processes and offshore support teams.']",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nDEGREE: Business Administration\nINSTITUTION: Walden University\nDATES: 2010",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 32959732.pdf\nDEGREE: Bachelor of Science in Information and Business Systems Technology\nINSTITUTION: University of Essex\nDATES: 2001 to 2004",
+        "metadata": {
+            "source_file": "32959732.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

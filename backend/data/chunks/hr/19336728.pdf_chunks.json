@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 19336728.pdf\nIDENTITY: Candidate Profile (19336728.pdf)\nSUMMARY: New graduate seeking work as a Counselor able to facilitate both individual and group therapy sessions to help participants overcome obstacles. Detail-oriented with superior interpersonal skills.\nSKILLS: administrative support, repairs, spreadsheet, high energy, sound judgment, excellent writing skills, conflict resolution training, exceptional problem solver, excellent communication skills, customer service skills",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nJOB TITLE: HR Assistant Intern\nCOMPANY: Company Name\nDATES: February 2016 - March 2016\nDESCRIPTION: ['Provided administrative support to the Human Resources Director.', 'Verified I-9 documentation for new hires.', 'Submitted online investigation requests and assisted with new employee background checks.', 'Updated HR spreadsheet with employee change requests and processed paperwork.']",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nJOB TITLE: Owner, Operator\nCOMPANY: Company Name\nDATES: August 2012 - Current\nDESCRIPTION: ['Managed fashion retail store independently.', 'Provided professional support to staff.', 'Assisted retail store in exhibiting innovative products.']",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nJOB TITLE: Preservation Technician I\nCOMPANY: Company Name\nDATES: October 2004 - May 2013\nDESCRIPTION: ['Responsible for the assembly of fabricated phase boxes, portfolios and custom enclosures for protecting historic and fragile library materials.', 'Performed archival sound repairs for books and pamphlets which included: rebinding books in the original covers (recasing).', 'Prepared and submitted books for additional processing at the bindery.', 'Designed complex enclosures for special projects.']",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nDEGREE: Bachelors of Art Organizational Leadership\nINSTITUTION: Cleveland State University\nDATES: April 2018",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nDEGREE: Associate Degree\nINSTITUTION: Bryant & Stratton College\nDATES: City, State April, 2016",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 19336728.pdf\nDEGREE: EMT Certification\nINSTITUTION: Cuyahoga Community College\nDATES: City State 2003",
+        "metadata": {
+            "source_file": "19336728.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

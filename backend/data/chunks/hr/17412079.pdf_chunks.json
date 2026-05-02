@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 17412079.pdf\nIDENTITY: Candidate Profile (17412079.pdf)\nSUMMARY: 7+ years of experience as an HR Partner with expertise in all facets of the Human Resource Function.\nSKILLS: HRIS applications (SAP), MS Office (Word, Excel, PowerPoint, Access, Outlook), Payroll Processing, Performance Management, Data analysis and Reporting, Staff Retention, Employee Relations, Recruitment/Hiring, Employee Counseling Administration, Conflict Resolution, Orientation & On-Boarding, Training & Development, Organizational Development, Compensation and Benefits",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 17412079.pdf\nJOB TITLE: HR Consultant\nCOMPANY: Company Name\nDATES: 07/2009 - 01/2014\nDESCRIPTION: Reduced employee attrition by 5%, developed comprehensive performance management, and managed HR activities for 500+ employees.",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 17412079.pdf\nJOB TITLE: HR Coordinator\nCOMPANY: Company Name\nDATES: 07/2008 - 05/2009\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 17412079.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Company Name\nDATES: 05/2007 - 06/2008\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 17412079.pdf\nDEGREE: MBA: Human Resource Management\nINSTITUTION: KIMS University, Karnataka University\nDATES: 2007",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 17412079.pdf\nDEGREE: Bachelors of Commerce\nINSTITUTION: BNDC University, Karnataka University\nDATES: 2005",
+        "metadata": {
+            "source_file": "17412079.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

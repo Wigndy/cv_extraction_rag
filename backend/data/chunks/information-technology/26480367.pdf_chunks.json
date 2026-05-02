@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 26480367.pdf\nIDENTITY: Candidate Profile (26480367.pdf)\nSUMMARY: Analyst with extensive experience in Information Technology. Proficiencies include trouble shooting hardware and software issues, client and project management skills, and strong communication abilities.\nSKILLS: active directory, antivirus, C programming, cable management, computer hardware support, client and client management, email management, front page design, HTML, IDS, internet access, local area network setup, Domino server configuration, office applications, Windows 2000, 2003, 2008 Server installation and maintenance, Windows XP, Vista, 7, 8 operating systems, network security, networking, operating system management, POS equipment support, power supply replacement, Python programming, routers configuration, scheduling, TCP/IP networking, technical support, desktop support, telecom systems, troubleshooting, upgrades and installations",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nJOB TITLE: IT Technology Specialist\nCOMPANY: Company Name\nDATES: 09/2015 to 04/2016\nDESCRIPTION: ['Monitored multiple databases for company inventory.', 'Provided Tier1 & Tier2 support and performed Tier3 support.', 'Performed service, repair, and installation of hardware, software, PCs, and POS equipment.', 'Managed telecom phone system.']",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nJOB TITLE: Field Service Tech\nCOMPANY: Company Name\nDATES: 03/2014 to 04/2015\nDESCRIPTION: ['Provided Tier1 & Tier2 support and performed Tier3 support.', 'Performed service, repair, and installation of hardware, software, PCs, and POS equipment.']",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name\nDATES: 08/2010 to 09/2006\nDESCRIPTION: ['Provided hardware support for PCs, laptops, and technical issues.', 'Assisted with system upgrades based on needs and growth.', 'Set up and maintained active directory requests.']",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: \nDATES: 09/2006 to 08/2010\nDESCRIPTION: ['Conducted network analysis leading to T1 line installation.', 'Monitored company technology inventory and provided hardware and software support.']",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nDEGREE: Bachelor of Science in Business Management\nINSTITUTION: National American University, City, State\nDATES: August-05",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 26480367.pdf\nDEGREE: Associate/Degree in Business Computer Programming\nINSTITUTION: Robeson Community College, Business Computer Programming\nDATES: May-92",
+        "metadata": {
+            "source_file": "26480367.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 27536013.pdf\nIDENTITY: Candidate Profile (27536013.pdf)\nSUMMARY: Highly accomplished professional with over 10 years of experience in management, project management, and business intelligence. Skilled in implementing effective systems, managing high output work teams, and leading various departments.\nSKILLS: Personnel Management, Leadership, Management of on-shore/off-shore resources, Financial budgets/planning, Project Management, Business Intelligence, Communications, Business Analysis, Report Development/Analysis, User Relations/User Training, Superior Microsoft Office Product Knowledge, Redesign of entire BI Program, Redeployment of architecture of Business Objects to SAP BO with SAP BW, Implementation of revamped external website using SharePoint, Redesign of SharePoint end user experience, Applications Team Leader, Business Intelligence Manager, Information Systems Software Administrator, ERP, CRM, Data Analysis, Data Warehouse, DBA, Databases, SAP BW, Oracle, MS SQL, SQL, Staff Development, Strategic Planning, Systems Architecture, Technical Assistance",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nJOB TITLE: Applications Team Leader\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: Manager of Business Intelligence, DBA, SharePoint, and Web departments; including strategic planning, overall systems architecture, and personnel.",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nJOB TITLE: Business Intelligence Manager\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: Manager of reporting department; including strategic planning, and overall systems architecture.",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nJOB TITLE: Information Systems Software Administrator\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: Managed and maintained all software packages for the entire organization including ERP, CRM, SQL databases, and reporting software.",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nDEGREE: BA in Management\nINSTITUTION: Western Governor's University\nDATES: 2012",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nDEGREE: General Studies\nINSTITUTION: University of Phoenix\nDATES: 2007",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 27536013.pdf\nDEGREE: Diploma in General Studies\nINSTITUTION: Denmark High School\nDATES: 1993",
+        "metadata": {
+            "source_file": "27536013.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

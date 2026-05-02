@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 13836471.pdf\nIDENTITY: Candidate Profile (13836471.pdf)\nSUMMARY: IT manager with over 15 years of experience in network administration, software development, and technical support. Expertise in Windows Server, Active Directory, Exchange Server, and various database systems.\nSKILLS: 4D, Active Directory, Adobe Products, Apple, Automation, backup, Broadcast, budget planning, Computer Technician, Hardware installation and configuration, Hardware, databases, Database, DHCP, DNS, editing, Final Cut, firewall, FTP, inventory, LAN, Mac, Magic, access, Microsoft Exchange Server, Windows 7, Windows, 2000, Windows XP, Network Administration, network, OS, operating system, Power Builder 6.5, Power Builder 9.0, processes, QuickBooks Pro, research, Sales, SAN, Servers, Software installation, Microsoft SQL Server, Streaming Video, Sybase SQL Anywhere 7.0, Sybase SQL Anywhere 9.0, Sybase SQL Anywhere, Symantec, Technical support, Television, video, VPN, Windows Server, Windows 2000 Server",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Company Name\nDATES: April 2007 - Present\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Company Name\nDATES: July 2001 - March 2007\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nJOB TITLE: Information Systems Administrator\nCOMPANY: Company Name\nDATES: January 2001 - July 2001\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nDEGREE: BS in Computer System Engineer\nINSTITUTION: Fundacion Universidad Autonoma de Colombia\nDATES: January 29, 2000",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nDEGREE: Computer Technician\nINSTITUTION: \nDATES: April 26, 1997",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 13836471.pdf\nDEGREE: Certification in LAN Network Administration\nINSTITUTION: Centro Colombiano de Estudios Profesionales Pontificia Universidad Javeriana\nDATES: January 1997",
+        "metadata": {
+            "source_file": "13836471.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

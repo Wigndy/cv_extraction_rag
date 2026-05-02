@@ -1,0 +1,90 @@
+[
+    {
+        "text": "SOURCE: 18187364.pdf\nIDENTITY: Candidate Profile (18187364.pdf)\nSUMMARY: Oracle Certified Professional (OCP), versions 8.0, 8i, 9i, 10g, 11g; Certified Information Systems Security Professional (CISSP) and Certified Information Security Manager (CISM); Strong collaborative skills\nSKILLS: Oracle Certified Professional (OCP), Certified Information Systems Security Professional (CISSP), Certified Information Security Manager (CISM), Database administration, Backup and recovery procedures, Performance monitoring, Application tuning, SQL programming, PL/SQL programming, Data modeling, System reliability",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: October 2010 to July 2015\nDESCRIPTION: ['Installed and configured Oracle software versions 10g-12c.', 'Managed support staff and participated in production support and security monitoring.', 'Developed backup and recovery procedures.', 'Monitored database performance and tuned applications.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: April 2002 to September 2010\nDESCRIPTION: ['Performed database penetration testing.', 'Led consolidation and upgrade projects.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: February 2000 to April 2002\nDESCRIPTION: ['Created spatial environments for an internet startup.', 'Managed Unix server farm.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: January 1999 to February 2000\nDESCRIPTION: ['Provided technical support for an international leasing company.', 'Developed Oracle installation standards.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: December 1997 to January 1999\nDESCRIPTION: ['Managed databases for telesales and electronic payment systems.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: June 1997 to December 1997\nDESCRIPTION: ['Converted document management system from Sybase to Oracle.', 'Trained DBAs.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: September 1996 to June 1997\nDESCRIPTION: ['Managed high volume online and Internet server Oracle databases.', 'Ensured system reliability.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nJOB TITLE: \nCOMPANY: Company Name, City, State\nDATES: June 1991 to September 1996\nDESCRIPTION: ['Developed Oracle databases for Pavement and Bridge Management Systems.']",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nDEGREE: Master of Science\nINSTITUTION: College of Saint Rose, City, State\nDATES: ",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18187364.pdf\nDEGREE: Bachelor of Arts\nINSTITUTION: City, State\nDATES: ",
+        "metadata": {
+            "source_file": "18187364.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

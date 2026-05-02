@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 10641230.pdf\nIDENTITY: Candidate Profile (10641230.pdf)\nSUMMARY: Detail-oriented IT professional with extensive experience in hardware and software troubleshooting, networking, server technologies, web development, and project management. Certified in CompTIA A+, Net+, and MCSA.\nSKILLS: CompTIA A+ certified, CompTIA Net+ certification class, Virus and spyware removal, MCSA certification class, Computer diagnostics and repair, Web Development I + II class, Gaming console repair, Digital media manipulation class modification, Java programming class, Mobile device repair, HTML - HTML5, Optimizing and performance tuning, XML, Audio and video technologies, CSS - CSS3, Medical technology installation, JavaScript troubleshooting, Command Line, Java Management, ActionScript, PHP planning, Database servers, Documentation, Android mobile application, Organization development, Multi-project priority management, Content Management Systems (CMS), Operating Systems, Website enhancement, Windows 95 - 8, Storyboarding, Windows Server 2003 - 8, Search Engine Optimization (SEO), Windows Phone 7.0 - 8.0, Social Media and marketing, Multiple Linux Distributions, Ubuntu 10.04 LTS - 12.10, Networking, Android 1.0 - 4.0.4, Cloud computing, Mac OS X v10.0 - v10.8, Server management, IOS 1.0 - 6.1, Active directory, Remote connection technologies, Proficiency in numerous protocols, Microsoft Office 2010 including TCP/IP, Small business management, Information security software (client and server), Wireless technologies, Adobe Creative Suite 5, Telephony technologies, Wiring and Network engineering, Photo enhancing, Brochure and newsletter formatting, Electronic circuits and components, Audio and video editing, Circuit diagrams and Prototyping, Logo and business card, Logic, electronic and computational algorithms, Electromagnetisms and waves, Quantum particle mechanics, Energy and electrical alternatives (Solar)",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 10641230.pdf\nJOB TITLE: IT Management\nCOMPANY: Company Name\nDATES: March 2012 - November 2012\nDESCRIPTION: Managed IT projects, executed office troubleshooting, built and managed the company website, and designed/updated electronic newsletters.",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10641230.pdf\nJOB TITLE: Information Technology Consultant\nCOMPANY: Company Name\nDATES: July 2011 - February 2012\nDESCRIPTION: Provided IT consulting services, including computer repair and network expansion.",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10641230.pdf\nJOB TITLE: Administrative Assistant\nCOMPANY: Company Name\nDATES: May 2011 - July 2011\nDESCRIPTION: Managed company website, social media administration, and assisted with administrative tasks.",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10641230.pdf\nDEGREE: Associate of Science in Information Technology\nINSTITUTION: Lyons Township\nDATES: 2014",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 10641230.pdf\nDEGREE: High School Diploma\nINSTITUTION: General Education\nDATES: Not Provided",
+        "metadata": {
+            "source_file": "10641230.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

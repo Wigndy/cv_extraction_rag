@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 26768723.pdf\nIDENTITY: Candidate Profile (26768723.pdf)\nSUMMARY: Technical Support Analyst with expertise in troubleshooting, repair, and installation of various operating systems. Flexible team player adaptable to dynamic environments.\nSKILLS: Active Directory, AD, asset management, automate, hardware, CSS, documentation, hard drives, Linux, Mac OS, Macintosh OS, director, meetings, Microsoft Office, Windows 7, Microsoft Windows, Windows, Windows XP, network and support, Network & Support, network, networking, operating systems, organizational, processes, programming, research, scheduling, supervision, phone, test equipment, troubleshooting, tutoring, Vista",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 26768723.pdf\nJOB TITLE: Support & Network Services Intern\nCOMPANY: Company Name\nDATES: September 2014 - December 2014\nDESCRIPTION: ['Customized and implemented Microsoft SCSM from SCCM.', 'Facilitated asset management and user onboarding processes for Student Affairs department.', 'Worked with Network & Support Services team to support users.', 'Attended meetings to coordinate functions of Microsoft SCSM.', 'Performed in a test environment to create runbook programming and templates.', 'Shadowed student workers with incident management processes within Cherwell Service Management.', 'Familiarized with ticket creation, priority, review, and remote desktop connections.']",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26768723.pdf\nJOB TITLE: Information Technology Lead Intern\nCOMPANY: Company Name\nDATES: June 2012 - June 2013\nDESCRIPTION: ['Worked with director to minimize Windows XP machines and migrate to Windows 7.', 'Contacted Central IT for diagnosing distance education connections and supporting equipment.', 'Deployed re-imaged hard drives or newly acquired assets based on priority scheduling.', 'Assisted lab desk student workers with issues, scheduled accommodations, and support.', 'Managed IT department equipment using SharePoint or open door policy.', 'Performed room checks to test and replace faulty campus property during semester breaks.', 'Set up purchased assets within classrooms while retiring older systems.']",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26768723.pdf\nJOB TITLE: Information Technology Student Center Intern\nCOMPANY: Company Name\nDATES: September 2011 - December 2011\nDESCRIPTION: ['Resolved student center questions and arranged peer-to-peer tutoring/assistance.', 'Prepared and delivered a Microsoft Office training session for the general public.', 'Created custom virtual machines in a sandboxed environment to distinguish networking and connectivity.', 'Continued research on various operating systems.']",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 26768723.pdf\nDEGREE: Bachelor of Science Information Science & Technology\nINSTITUTION: University of Wisconsin, City, State\nDATES: 12-2014",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 26768723.pdf\nDEGREE: AAS Waukesha County Technical College\nINSTITUTION: City, State\nDATES: 12 2011",
+        "metadata": {
+            "source_file": "26768723.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

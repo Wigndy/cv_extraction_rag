@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 29149998.pdf\nIDENTITY: Candidate Profile (29149998.pdf)\nSUMMARY: Highly motivated, dynamic Human Resources professional with diverse credentials seeking a position to make a positive impact on company policies and experience career growth. Experienced in administrative and human resources roles.\nSKILLS: Compensation knowledge, MS Office Suite, AR/AP proficiency, Oracle knowledge, Great communication skills, Great analytical skills, New Hire Training, Filing & Records Management, Spreadsheets/Reports, Office Management, Customer Service, QuickBooks, Peachtree, New Hire paperwork",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 29149998.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Circle K -Naples, FL\nDATES: 03/2016 to Current\nDESCRIPTION: Sourced and recruited candidates for call center positions. Managed onboarding and exit interview paperwork. Compiled reports and conducted initial phone interviews.",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29149998.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Company Name - City, State\nDATES: 02/2011 to 10/2014\nDESCRIPTION: Maintained employee benefits and timecards. Conducted background checks and managed HR records for two stores.",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29149998.pdf\nJOB TITLE: AR/AP Representative\nCOMPANY: Company Name - City, State\nDATES: 01/2007 to 01/2010\nDESCRIPTION: Processed invoices and credit memos. Managed vendor relations and reconciled vendors.",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29149998.pdf\nJOB TITLE: Office Assistant\nCOMPANY: Company Name - City, State\nDATES: 01/2004 to 01/2007\nDESCRIPTION: Updated customer database. Coordinated travel schedules and managed timecards.",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29149998.pdf\nDEGREE: Associates of Science in Human Resources and Organizational Leadership\nINSTITUTION: RASMUSSEN COLLEGE - City, State\nDATES: 06/2016",
+        "metadata": {
+            "source_file": "29149998.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

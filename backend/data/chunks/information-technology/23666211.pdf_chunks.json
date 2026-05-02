@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 23666211.pdf\nIDENTITY: Candidate Profile (23666211.pdf)\nSUMMARY: Qualified Training Manager with over 10 years of experience in various training environments. Strong in leadership, development, and management roles.\nSKILLS: Training and Development, Supervision and training, Policy/program development, Certified Train the Trainer (T3), Management of remote employees, Curriculum Development, Talent development, Military & Civilian Training, Master Black Belt Instructor, Operations management, Cross-functional team management, Training manual contributor, Call center management experience, Customer service management expertise",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nJOB TITLE: Training Manager\nCOMPANY: Company Name City , State\nDATES: 08/2011 to 09/2015\nDESCRIPTION: ['Created and implemented training programs, supervised staff, conducted orientation sessions.', 'Developed multimedia materials and testing processes.']",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nJOB TITLE: Owner/Partner Defense Contractor\nCOMPANY: Company Name City , State\nDATES: 10/2006 to 07/2011\nDESCRIPTION: ['Supervised employees for high-level security operations, conducted briefings and training.', 'Developed business plans and provided instruction.']",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nJOB TITLE: Program Administrator II, Project Manager. Training Specialist II: US Army (CISAC)\nCOMPANY: Company Name City , State\nDATES: 01/2004 to 09/2006\nDESCRIPTION: ['Consulted with DOI and DOD on inventory processes, provided instruction for the CISAC course.']",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nJOB TITLE: Role Player\nCOMPANY: Company Name City , State\nDATES: 01/2003 to 01/2004\nDESCRIPTION: ['Provided role player services for US Army Intelligence Center.']",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nDEGREE: Bachelor of Arts (Equivalent) : Theology\nINSTITUTION: University of the South , City , State , USA\nDATES: 2007",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 23666211.pdf\nDEGREE: Associates (Equivalent) : Office Automation/Computer Specialist\nINSTITUTION: Coleman University , City , State , USA\nDATES: 1989",
+        "metadata": {
+            "source_file": "23666211.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

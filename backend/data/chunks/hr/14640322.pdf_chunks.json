@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 14640322.pdf\nIDENTITY: Candidate Profile (14640322.pdf)\nSUMMARY: HR Generalist with 8 yrs of professional experience in employee recruitment, orientation, engagement, assimilation and termination procedures.\nSKILLS: Talent Acquisition, Onboarding, Documentation, Vendor management, Microsoft Office",
+        "metadata": {
+            "source_file": "14640322.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 14640322.pdf\nJOB TITLE: \nCOMPANY: Company Name - City , State\nDATES: November 2006 to May 2015\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "14640322.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 14640322.pdf\nJOB TITLE: \nCOMPANY: Company Name - City , State\nDATES: January 2006 to October 2006\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "14640322.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 14640322.pdf\nDEGREE: M.B.A : Human Resources & Finance\nINSTITUTION: Utkal University - State , India\nDATES: 2005",
+        "metadata": {
+            "source_file": "14640322.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 14640322.pdf\nDEGREE: Bachelor of Science : Physics Honours\nINSTITUTION: OUAT - State , India\nDATES: 2002",
+        "metadata": {
+            "source_file": "14640322.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

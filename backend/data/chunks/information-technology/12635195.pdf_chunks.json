@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 12635195.pdf\nIDENTITY: Candidate Profile (12635195.pdf)\nSUMMARY: Seeking a position in IT, personnel development, or computer science to manage and support projects and individuals.\nSKILLS: Google and Microsoft suite experience, Educational and IT fields expertise, Project management and technology education for teachers",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nJOB TITLE: Adjunct Information Technology Instructor\nCOMPANY: Company Name City, State\nDATES: 01/2014 - Current\nDESCRIPTION: Taught programming languages and sat on advisory board.",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nJOB TITLE: Information Technology Instructor and School Technology Coordinator\nCOMPANY: Company Name City, State\nDATES: 11/2011 - Current\nDESCRIPTION: Met educational needs of high school students, taught programming languages, and supported staff technology.",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nJOB TITLE: STC Support Staff for CTE Unit\nCOMPANY: Company Name City, State\nDATES: Not Specified\nDESCRIPTION: Provided LMS support, teacher training, and maintained school website.",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nJOB TITLE: Geek Squad Agent\nCOMPANY: Company Name City, State\nDATES: 04/2007 - 09/2010\nDESCRIPTION: Set up networks, tested hardware, coordinated repairs, and trained new employees.",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nDEGREE: Master of Science in Computer Information Systems\nINSTITUTION: Murray State University City, State\nDATES: 2015",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nDEGREE: Master of Arts in Education\nINSTITUTION: Murray State University City, State\nDATES: 2013",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 12635195.pdf\nDEGREE: Bachelor of Science in Education\nINSTITUTION: Murray State University City, State\nDATES: 2011",
+        "metadata": {
+            "source_file": "12635195.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

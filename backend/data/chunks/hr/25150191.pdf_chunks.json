@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 25150191.pdf\nIDENTITY: Candidate Profile (25150191.pdf)\nSUMMARY: Forward-thinking professional with experience in human resources, sales, customer service and education. Offers excellent communication and computer skills; highly organized and meticulous.\nSKILLS: MS Office Suite, Self-motivated professional, Team leadership, Meeting deadlines, Time management skills",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nJOB TITLE: HR Contact Center Specialist\nCOMPANY: Company Name\nDATES: 07/2016 - Present\nDESCRIPTION: Answered employee issues, provided guidance on HR responsibilities, maintained compliance and supported HR policies.",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nJOB TITLE: Admissions Representative\nCOMPANY: Company Name\nDATES: 10/2014 - 07/2016\nDESCRIPTION: Conducted interviews and assisted students through the admissions process.",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nJOB TITLE: Recruiting Coordinator\nCOMPANY: Company Name\nDATES: 03/2014 - 05/2014\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nJOB TITLE: Branch Coordinator\nCOMPANY: Company Name\nDATES: 05/2014 - 10/2014\nDESCRIPTION: Managed front desk operations and coordinated job fairs.",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nDEGREE: MBA: Business Finance\nINSTITUTION: Strayer University, City, State\nDATES: June 24, 2013",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 25150191.pdf\nDEGREE: Bachelor of Arts: Communication concentration Mass Communication\nINSTITUTION: Fayetteville State University, City, State\nDATES: May 7, 2011",
+        "metadata": {
+            "source_file": "25150191.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

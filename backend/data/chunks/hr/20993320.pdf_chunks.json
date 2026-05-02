@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 20993320.pdf\nIDENTITY: Candidate Profile (20993320.pdf)\nSUMMARY: From retail sales, developed a passion for leadership and employee development. Extensive experience in HR generalist roles, focusing on policies, training, and retention.\nSKILLS: Creative problem solving, Organized with attention to detail, Computer proficient, Customer service, Benefits administration, Payroll processing, Records management, Employee relations, On-boarding and training, HRIS, MS Office Suite, ADP and Sage payroll",
+        "metadata": {
+            "source_file": "20993320.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 20993320.pdf\nJOB TITLE: HR Coordinator\nCOMPANY: Girl Scouts of Gulfcoast Florida\nDATES: 12/2011 - Present\nDESCRIPTION: Implemented new technology for volunteer management, improved onboarding process, and managed HR operations.",
+        "metadata": {
+            "source_file": "20993320.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20993320.pdf\nJOB TITLE: Human Resources/Office Manager\nCOMPANY: Company Name\nDATES: 06/2003 - 04/2011\nDESCRIPTION: Conducted benefits administration, developed employee handbook, and managed HR operations.",
+        "metadata": {
+            "source_file": "20993320.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20993320.pdf\nDEGREE: Master of Arts in Organizational Leadership\nINSTITUTION: Regent University\nDATES: 2011",
+        "metadata": {
+            "source_file": "20993320.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 20993320.pdf\nDEGREE: Bachelor of Science in Apparel and Merchandising\nINSTITUTION: Colorado State University\nDATES: 1991",
+        "metadata": {
+            "source_file": "20993320.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

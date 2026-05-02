@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 24913648.pdf\nIDENTITY: Candidate Profile (24913648.pdf)\nSUMMARY: Experienced network professional with outstanding success rate at installing and supporting critical, multi-site networks. Proven ability to manage all phases of network installation and administration.\nSKILLS: Remote access support, Systems analysis, Preventative maintenance, Data backup and recovery systems, Wireless Access Point, LAN and WAN expertise, Performance testing, User account creation, Antivirus and spam blocking, VPN configurations, Network administration, Network security, Troubleshooting",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 24913648.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name • City, State\nDATES: 08/2012 - Present\nDESCRIPTION: ['Provides support to mission partners and customers.', 'Troubleshoots hardware and software components.', 'Manages testing, installation, and configuration of software.', 'Performs daily security inspections.', 'Coordinates with the Security manager.', 'Ensures only authorized personnel are in secure areas.', 'Administers DECC Warner Robins LAN.', 'Maintains administrative LAN equipment.', 'Plans and coordinates new software and network infrastructure installations.', 'Monitors network performance and resolves connectivity issues.', 'Manages incident tracking and escalation.']",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24913648.pdf\nJOB TITLE: Computer Systems Administrator\nCOMPANY: Company Name • City, State\nDATES: 12/2007 - 08/2012\nDESCRIPTION: ['Deploys computer systems and hardware.', 'Implements desktop and laptop imaging.', 'Troubleshoots local firewall issues and antivirus updates.', 'Performs software upgrades and essential troubleshooting.', 'Led the deployment of over 150 SIPRNET workstations.', 'Managed all SIPRNET support in zone.', 'Performed security scans on classified systems.', 'Installed hardware/software to meet end-user needs.', 'Served as a point of contact for system installs and upgrades.', 'Provided desktop support using various utilities.', 'Configured network printers.', 'Diagnosed and resolved network connectivity issues.', 'Maintained network security.']",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24913648.pdf\nJOB TITLE: Information Assurance/Network Security\nCOMPANY: Company Name • City, State\nDATES: 01/2006 - 12/2007\nDESCRIPTION: ['Developed and maintained secure networks.', 'Installed and maintained workstations.', 'Managed base boundary exception systems.']",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24913648.pdf\nJOB TITLE: Helpdesk Technician\nCOMPANY: Company Name • City, State\nDATES: 05/2004 - 01/2006\nDESCRIPTION: ['Resolved issues related to operating systems and network connectivity.', 'Provided technical support.', 'Monitored the Network Control Center system.']",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24913648.pdf\nDEGREE: Bachelor of Science in Computer Information Systems\nINSTITUTION: Jacksonville University - City, State\nDATES: 2002",
+        "metadata": {
+            "source_file": "24913648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

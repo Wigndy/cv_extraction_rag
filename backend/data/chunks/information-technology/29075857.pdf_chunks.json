@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 29075857.pdf\nIDENTITY: Candidate Profile (29075857.pdf)\nSUMMARY: Adjunct instructor with extensive experience in quality assurance, project management, and software development. Led the implementation of various tools and processes for data analysis, testing, and strategic planning.\nSKILLS: Quality Assurance (QA), Project Management, Software Development, Data Analysis, Testing, Leadership Development, Process Improvement, Vendor Management, Business Intelligence, Automation, Batch Processing, Collaboration",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nJOB TITLE: Adjunct Instructor\nCOMPANY: Various Institutions\nDATES: Multiple Terms (Not Specified)\nDESCRIPTION: Taught courses in computer science and related fields.",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nJOB TITLE: QA Project Manager / Software Developer\nCOMPANY: Prudential Annuities\nDATES: January 1988 - January 1996, January 1996 - January 1998\nDESCRIPTION: Managed quality assurance projects and developed software solutions. Led the implementation of QA tools and processes for data analysis and strategic planning.",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nJOB TITLE: QA Project Manager / Software Developer\nCOMPANY: Prodigy\nDATES: January 1996 - January 1998\nDESCRIPTION: Managed quality assurance projects and developed software solutions. Led the implementation of QA tools and processes for data analysis and strategic planning.",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nJOB TITLE: Leadership Development Rotation Program Participant\nCOMPANY: Prudential Annuities\nDATES: 2012 - 2013\nDESCRIPTION: Participated in a leadership development program across various organizational departments.",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nDEGREE: MS in Computer Science\nINSTITUTION: University of New Haven\nDATES: 1985 - 1992",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 29075857.pdf\nDEGREE: BS in Computer Science\nINSTITUTION: Fairleigh Dickinson University\nDATES: 1985 - 1988",
+        "metadata": {
+            "source_file": "29075857.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

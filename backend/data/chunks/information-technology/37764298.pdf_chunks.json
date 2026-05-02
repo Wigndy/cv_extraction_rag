@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 37764298.pdf\nIDENTITY: Candidate Profile (37764298.pdf)\nSUMMARY: \nSKILLS: MS Word, Outlook, PowerPoint, Excel, Access, CRM, Adobe Acrobat XI, Hardware, Build, repair and upgrade desktop computers, Repair and upgrade laptop computers, Install and setup servers, printers and routers, Basic computer network setup and troubleshooting, Microsoft Excel spreadsheet creation, Administrative duties, Asset management, Billing system, Cashier, Catalog, Computer repair and upgrade, Data entry, Database, Debit, Delivery, Financial, Information technology, Inventory, Laptop computers, Law, Legal documents, Marketing, Microsoft Certified Systems Engineer, Microsoft Excel, MS Excel, Office, Outlook, PowerPoint, MS Windows, Windows 2000, Windows XP, Word, Network setup, Notary Public, Order office supplies, Organizational, Peripherals, Personnel, Printers, Profit, Programming, Quality control, Receptionist, Reporting, Routers, Scheduling, Servers, SIMs, Software engineering, Install software, Spreadsheets, SQL, System administration, Telecommunications, Answer phones, Troubleshoot, Upgrade",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 12/2009 to 02/2016\nDESCRIPTION: ['Basic computer network setup and troubleshooting.', 'Install software and printers.', 'Computer repair and upgrade for individuals.', 'Microsoft Excel spreadsheet creation.']",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 08/2015 to 01/2016\nDESCRIPTION: ['Assisted with administrative duties in the operations departments.', 'Created airtime spreadsheets and assists with revenue reporting.', 'Assisted with data entry into an internal billing system (UCAP).']",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 08/2011 to 08/2015\nDESCRIPTION: [\"Responsible for getting clients' assets re-titled into their respective trusts.\", 'Enter client data onto database and legal document generation software.']",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 01/2002 to 12/2009\nDESCRIPTION: ['Prepared student reports for multiple state regulatory agencies and national accreditation agency, ACCET.', 'Answered phones.']",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 05/1996 to 05/2001\nDESCRIPTION: ['Responsible for installation and troubleshooting Windows 2000 workstations, hardware, printers, peripherals, and software.']",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nDEGREE: B.S. Business Finance\nINSTITUTION: Towson University\nDATES: January 1991",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 37764298.pdf\nDEGREE: \nINSTITUTION: ComputerTraining.Com\nDATES: January 2002",
+        "metadata": {
+            "source_file": "37764298.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

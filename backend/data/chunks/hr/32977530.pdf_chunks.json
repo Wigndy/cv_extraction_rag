@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 32977530.pdf\nIDENTITY: Candidate Profile (32977530.pdf)\nSUMMARY: Ethical, team-oriented, and policy-driven individual with experience in AP/AR, HR administration, auditing, documentation, property management (96 units), and a vast number of computer skills.\nSKILLS: Accounts Payable, Accounts Receivable, Customer Service, Microsoft Suite, SAP, Solomon, Quickbooks",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: HR Clerk\nCOMPANY: Company Name\nDATES: 04/2015 to 06/2015\nDESCRIPTION: Managed receptionist area, including greeting visitors and responding to requests. Made copies, sent faxes, organized files, developed spreadsheets.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: Accounts Payable Clerk\nCOMPANY: Company Name\nDATES: 02/2014 to 03/2014\nDESCRIPTION: Received and verified invoices, prepared batches for data entry. Managed weekly check mailings, maintained vendor files.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: Accounts Payable Clerk\nCOMPANY: Company Name\nDATES: 12/2013 to 02/2014\nDESCRIPTION: Audited Sprint bills, performed calculations in Excel. Developed auditing procedure.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: AP/AR Clerk\nCOMPANY: Company Name\nDATES: 07/2013 to 11/2013\nDESCRIPTION: Executed reporting enhancements and reconciliation procedures. Processed vendor invoice payments.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: Accounts Receivable Specialist III\nCOMPANY: Company Name\nDATES: 08/2000 to 06/2011\nDESCRIPTION: Posted invoices, resolved discrepancies. Managed high-volume customer calls.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nJOB TITLE: Apartment Manager/Leasing\nCOMPANY: Tipton Management - Pine Lake Village Apartments\nDATES: 08/1999 to 12/2000\nDESCRIPTION: Managed 96% occupancy. Paid bills, completed move-ins and outs.",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 32977530.pdf\nDEGREE: BSBA: Human Resource Management\nINSTITUTION: CTU Online\nDATES: 2011",
+        "metadata": {
+            "source_file": "32977530.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

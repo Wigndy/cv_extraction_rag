@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 11584809.pdf\nIDENTITY: Candidate Profile (11584809.pdf)\nSUMMARY: Versatile Building Automation System engineer and IT professional with vast knowledge of Enterprise Project Lifecycle methodology and experience to deliver insightful network infrastructure and building automation solutions.\nSKILLS: System administration, Windows Server 2003, Windows Server 2008, VMware, Active Directory, Microsoft Exchange 2013, Large computer networks, Linux, Mac OS, Microsoft Dynamics, Access Control Security, Project Management Professional (PMP), Certified Information Security Manager, Certified Network Associate (CCNA), Certified Network Professional (CCNP), Certified Security Professional (CCSP)",
+        "metadata": {
+            "source_file": "11584809.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 11584809.pdf\nJOB TITLE: Manager - Information Technology and Building Automation Systems\nCOMPANY: Company Name, City, State\nDATES: October 2014 to Current\nDESCRIPTION: ['Led a cross-functional team of engineers, QAs and UX designers.', 'Delivered detailed feature roadmaps.', 'Managed the IT team and enforced deadlines.', 'Conducted computer diagnostics.', 'Worked on large enterprise applications.']",
+        "metadata": {
+            "source_file": "11584809.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 11584809.pdf\nJOB TITLE: Information Systems Technician\nCOMPANY: Company Name, City, State\nDATES: July 2008 to July 2014\nDESCRIPTION: ['Supported network security and Microsoft-based programs.', 'Installed and maintained hardware and software.', 'Developed product requirements.']",
+        "metadata": {
+            "source_file": "11584809.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 11584809.pdf\nDEGREE: Master of Science : Computer & Information Science\nINSTITUTION: University of Houston, City, State, USA\nDATES: 2015",
+        "metadata": {
+            "source_file": "11584809.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 11584809.pdf\nDEGREE: Bachelor of Science : Management of Information Systems\nINSTITUTION: University of Maryland University College, City, State, USA\nDATES: 2011",
+        "metadata": {
+            "source_file": "11584809.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

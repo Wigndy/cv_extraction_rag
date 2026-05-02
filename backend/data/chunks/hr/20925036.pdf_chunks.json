@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 20925036.pdf\nIDENTITY: Candidate Profile (20925036.pdf)\nSUMMARY: Chicago HR generalist offering Recruitment, Attendance Management System, Payroll Processing, MIS, Employee Engagement processing. Highly driven to achieve company goals.\nSKILLS: Recruitment, Payroll Processing, Employee Engagement, Microsoft Office (Excel, Word & PPT), SAP HCM, Training Programs, Presentation Skills, Leadership, Customer Development, ISO 9000 Documentation and Implementation",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nJOB TITLE: HR Executive\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nJOB TITLE: HR Generalist\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nJOB TITLE: Associate\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nDEGREE: Master of Science : Human Resource Management\nINSTITUTION: Cardiff University, UK\nDATES: 2010",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nDEGREE: MBA : Human Resource\nINSTITUTION: MIT School of Business - City, State, India\nDATES: 2010",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 20925036.pdf\nDEGREE: Bachelor of Science : Computer Science\nINSTITUTION: MGM College - City, State, India\nDATES: 2010",
+        "metadata": {
+            "source_file": "20925036.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

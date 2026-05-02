@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 30163002.pdf\nIDENTITY: Candidate Profile (30163002.pdf)\nSUMMARY: Young, dedicated and focused office administrative assistant who excels at prioritizing, completing multiple tasks simultaneously and following through to achieve project goals. Seeking a role of increased responsibility and authority.\nSKILLS: business development, central point of contact, closing, client, clients, email, employee relations, fast, faxes, meetings, access, mail, office, PowerPoint presentations, neat, payroll, personnel, quality, receptionist, sales, spreadsheets, telephone, employee handbooks",
+        "metadata": {
+            "source_file": "30163002.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 30163002.pdf\nJOB TITLE: HR Generalist\nCOMPANY: Company Name, City, State\nDATES: April 2013 - October 2013\nDESCRIPTION: ['Served as central point of contact for employee relations matters.', 'Processed onboarding and new hire paperwork.', 'Managed the receptionist area.', 'Supplied key cards and building access.', 'Managed all employee personnel files.', 'Created PowerPoint presentations.', 'Organized files, developed spreadsheets.']",
+        "metadata": {
+            "source_file": "30163002.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 30163002.pdf\nJOB TITLE: Office Administrative Assistant\nCOMPANY: Company Name\nDATES: June 2009 - August 2012\nDESCRIPTION: ['Managed the receptionist area.', 'Screened telephone calls and inquiries.', 'Designed electronic file systems.', 'Maintained front desk in a neat and organized fashion.', 'Dispersed incoming mail.', 'Created PowerPoint presentations.']",
+        "metadata": {
+            "source_file": "30163002.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 30163002.pdf\nJOB TITLE: Waitress\nCOMPANY: Company Name, City, State\nDATES: August 2010 - December 2010\nDESCRIPTION: ['Assisted guests with menu choices.', 'Delivered exceptional service.', 'Managed closing duties.']",
+        "metadata": {
+            "source_file": "30163002.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 30163002.pdf\nDEGREE: \nINSTITUTION: North Carolina Agricultural & Technical State University, City, State\nDATES: 2012",
+        "metadata": {
+            "source_file": "30163002.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

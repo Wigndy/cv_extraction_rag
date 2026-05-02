@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 39413067.pdf\nIDENTITY: Candidate Profile (39413067.pdf)\nSUMMARY: Highly skilled, results-driven Information Technology Specialist/Consultant with extensive experience in business operations, infrastructure management, software/hardware support, and technical project management. Expertise includes Active Directory, C#, Java, SQL, and network administration.\nSKILLS: Active Directory, C#, Java, SQL, Network Administration, Project Management, Technical Support, Consulting, Client Support, Database Management, Software Development, System Design",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 39413067.pdf\nJOB TITLE: Freelance IT Consultant\nCOMPANY: Company Name\nDATES: 04/2012 - Current\nDESCRIPTION: ['Worked closely with technology vendors to manage costs.', 'Implemented PC and laptop re-imaging process.', 'Provided technical support and problem resolution.']",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39413067.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name\nDATES: 04/2012 - Current\nDESCRIPTION: ['Acted as a liaison between departments.', 'Developed and managed project plans.', 'Increased efficiency of infrastructural technologies.']",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39413067.pdf\nJOB TITLE: Information Technology Consultant Network Solution/Owner\nCOMPANY: Network Solution/Owner\nDATES: 04/2007 - 12/2012\nDESCRIPTION: ['Provided consultation for business software and hardware solutions.', 'Configured LANs and WLANs.']",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39413067.pdf\nJOB TITLE: Help Desk Specialist\nCOMPANY: Company Name\nDATES: 08/2011 - 04/2012\nDESCRIPTION: ['Provided technical support for network applications.', 'Improved reliability of education software.']",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39413067.pdf\nDEGREE: Associate of Applied Science Computer Science\nINSTITUTION: Minnesota School of Business\nDATES: 2012",
+        "metadata": {
+            "source_file": "39413067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

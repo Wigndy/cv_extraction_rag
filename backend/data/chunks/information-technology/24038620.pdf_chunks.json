@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 24038620.pdf\nIDENTITY: Candidate Profile (24038620.pdf)\nSUMMARY: Led IT operations for a large law firm, overseeing voice and data communications, implementing new technologies, managing staff, and ensuring data security.\nSKILLS: technical business operations leadership, project management, data security, system upgrades and maintenance, vendor negotiation",
+        "metadata": {
+            "source_file": "24038620.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 24038620.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: April 1999 to January 2015\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "24038620.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24038620.pdf\nDEGREE: Associate's Degree : Computer Information Systems\nINSTITUTION: HARRISBURG AREA COMMUNITY COLLEGE\nDATES: ",
+        "metadata": {
+            "source_file": "24038620.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 24038620.pdf\nDEGREE: Associate's Degree : Business Administration\nINSTITUTION: Business Administration\nDATES: ",
+        "metadata": {
+            "source_file": "24038620.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 24038620.pdf\nDEGREE: MBA : Leadership Program\nINSTITUTION: ELIZABETHTOWN COLLEGE Leadership Program\nDATES: ",
+        "metadata": {
+            "source_file": "24038620.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

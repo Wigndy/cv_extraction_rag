@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 87968870.pdf\nIDENTITY: Candidate Profile (87968870.pdf)\nSUMMARY: Energetic, Bilingual Human Resources Professional with over 11 years of experience in recruitment/retention, training and development, compensation and benefits, new hire orientation, mediation expertise, employee relations, labor agreements, regulatory compliance, and HR systems administration.\nSKILLS: ADA, ADP, benefits, employee relations, human resource, HR, insurance, law enforcement, mediation, MS Office, SharePoint, organizational, performance management, personnel, policies, promotion, recruiting, employee handbooks, vendor management",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nJOB TITLE: HR Generalist\nCOMPANY: Company Name\nDATES: 12/2014 - Present\nDESCRIPTION: ['Develops HR policies and budgets.', 'Ensures employee compliance and safety.', 'Conducts new hire orientation.', 'Serves as a link between management and employees.', 'Assists in executive management team decisions on HR issues.']",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nJOB TITLE: HR Generalist\nCOMPANY: Company Name\nDATES: 02/2013 - 12/2014\nDESCRIPTION: ['Administers HR plans and procedures.', 'Conducts recruitment efforts.', 'Assists in evaluation of reports.', 'Develops personnel policies.']",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nJOB TITLE: Human Resource Manager\nCOMPANY: Company Name\nDATES: 10/2008 - 01/2013\nDESCRIPTION: ['Develops and implements HR policies.', 'Directs employee performance management program.']",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nJOB TITLE: Staffing Manager\nCOMPANY: Company Name\nDATES: 10/2004 - 09/2008\nDESCRIPTION: ['Conducted background checks.', 'Explained employee compensation and benefits.']",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nDEGREE: BBA: Human Resource Management\nINSTITUTION: Sam Houston State University, City, State, USA\nDATES: 2004",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 87968870.pdf\nDEGREE: Associate of Science: Liberal Arts\nINSTITUTION: North Harris Community College, City, State, USA\nDATES: 2000",
+        "metadata": {
+            "source_file": "87968870.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

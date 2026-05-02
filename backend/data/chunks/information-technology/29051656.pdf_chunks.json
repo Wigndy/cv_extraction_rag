@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 29051656.pdf\nIDENTITY: Candidate Profile (29051656.pdf)\nSUMMARY: An organized DBA professional with over 6 years of hands-on experience supporting Oracle databases, SQL Server databases and AWS infrastructure. Equipped with excellent communication and interpersonal skills; a highly organized individual and team player who possesses strong analytical and problem-solving skills, committed in delivering quality services to customers/clients.\nSKILLS: Oracle databases (10g, 11g, 12c), SQL Server databases (2008, 2012), AWS infrastructure, Database administration and management, Performance tuning and optimization, Disaster recovery planning, Backup and recovery strategies, Real Application Cluster (RAC) implementation, Data security and auditing, Patch management and upgrades, Golden Gate replication, Shell scripting (UNIX, Ksh, bash), Database monitoring tools (TKPROF, EXPLAIN PLAN, STATSPACK, AWR)",
+        "metadata": {
+            "source_file": "29051656.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 29051656.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name\nDATES: 03/2018 - Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "29051656.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29051656.pdf\nJOB TITLE: Database Administrator\nCOMPANY: Company Name\nDATES: 12/2014 - Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "29051656.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29051656.pdf\nJOB TITLE: Oracle Database Administrator\nCOMPANY: Company Name\nDATES: 07/2012 - 10/2014\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "29051656.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 29051656.pdf\nDEGREE: Bachelor of Science\nINSTITUTION: University Of Buea\nDATES: ",
+        "metadata": {
+            "source_file": "29051656.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 13385306.pdf\nIDENTITY: Candidate Profile (13385306.pdf)\nSUMMARY: Applying technology and workflow solutions to business challenges is exciting for me because I love to learn and apply new lessons and approaches to support and enhance the organization to achieve its goals and mission.\nSKILLS: .NET, asp.net, vb.net, adabas, ado, agile, application development, asp, agency, banking, banyan, billing, business analysis, business intelligence, cardiology, client server, data management, database administration, database design, delivery, desktops, xml, help desk support, iis, information technology, it strategy, leadership, team leadership, mainframe, c#, sharepoint, natural, network administrator, network administration, network support, network, novell, object modeling, oracle, oracle dba, developer, pl/sql, oracle sql, phone system, programming, project management, requirements analysis, research, sdlc, software development, microsoft sql server, sql, sql server, tableau, phone, web applications, year 2000",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nJOB TITLE: Director of Information Technology\nCOMPANY: Company Name\nDATES: 11/2012 - 08/2015\nDESCRIPTION: Provided application and network support services for the MSBA. Managed a rackspace hosted ASP.NET solution tied to SQL Server, refreshed hardware and software, developed C# utility library, and managed project workflows.",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nJOB TITLE: Team Leader\nCOMPANY: Company Name\nDATES: 05/2005 - 11/2012\nDESCRIPTION: Led clinical and research programming development for the Cardiovascular Program. Managed three teams, replaced legacy systems with modern C# applications, maintained Oracle DBA responsibilities.",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nJOB TITLE: Chief Information Officer\nCOMPANY: Company Name\nDATES: 07/2000 - 02/2005\nDESCRIPTION: Provided network, application, and help desk support for the Department of Mental Retardation. Managed a team of 5 across 35 facilities, upgraded to Zen 5.0 Novell, developed client-server applications.",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nJOB TITLE: Director of Applications Development\nCOMPANY: Company Name\nDATES: 02/1996 - 06/2000\nDESCRIPTION: Provided application development and support services to the Department of Youth Services. Led Year 2000 project converting mainframe system to ASP web-based application YSIS.",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nDEGREE: Master of Business Administration (MBA)\nINSTITUTION: Suffolk University - Sawyer School of Management City\nDATES: ",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 13385306.pdf\nDEGREE: Bachelor of Arts (BA)\nINSTITUTION: \nDATES: ",
+        "metadata": {
+            "source_file": "13385306.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

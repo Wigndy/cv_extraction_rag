@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 22450718.pdf\nIDENTITY: Candidate Profile (22450718.pdf)\nSUMMARY: Quality-driven and practical Systems Administrator with 5+ years aligning business systems with policies. Strong in analytical, problem-solving, and system administration skills.\nSKILLS: analytical, interpersonal, communication, organizational, system administration, UNIX system performance monitoring, team player, self-starter, network management, troubleshooting, debugging, J2EE, LDAP, Linux, Mainframe, Oracle, MS Office (Word, PowerPoint, Excel, Outlook), Windows, database, web applications",
+        "metadata": {
+            "source_file": "22450718.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 22450718.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: Sep 2013 to Dec 2015\nDESCRIPTION: Maintained and troubleshooted complex infrastructure. Provided first-level Help Desk services. Performed root cause analysis and network management tasks.",
+        "metadata": {
+            "source_file": "22450718.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 22450718.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: May 2010 to Sep 2013\nDESCRIPTION: Performed system health analysis, testing, and integration. Developed bug fixes and patch sets for web applications.",
+        "metadata": {
+            "source_file": "22450718.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 22450718.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: Feb 2009 to May 2010\nDESCRIPTION: Coordinated seminars. Served as Windows SME for NCMEC support.",
+        "metadata": {
+            "source_file": "22450718.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 22450718.pdf\nDEGREE: Bachelors of Science in Computer Engineering Technology\nINSTITUTION: Prairie View A&M University\nDATES: Spring 2008",
+        "metadata": {
+            "source_file": "22450718.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

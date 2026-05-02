@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 18752129.pdf\nIDENTITY: Candidate Profile (18752129.pdf)\nSUMMARY: To pursue a caring and creative career, applying existing knowledge, acquiring new skills, contributing to the future of children.\nSKILLS: Creating a warm classroom environment, Supportive guidance for students, Encouraging self-discovery and understanding of curriculum, Balancing social, emotional, physical and intellectual development, Developing trust, support, and love between teacher and child, Promoting emotional development through exploration, Encouraging outdoor activities, Healthy meal planning",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nJOB TITLE: Information Technology Analyst\nCOMPANY: Company Name\nDATES: 01/2010 - 08/2010\nDESCRIPTION: Believes in creating a warm, organized classroom environment that fosters social, emotional, physical and intellectual development. Emphasizes the importance of being a supportive guide for students to explore self-discovery and understand curriculum.",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nJOB TITLE: Technology Analyst\nCOMPANY: Company Name\nDATES: 10/2006 - 06/2008\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nJOB TITLE: Software Engineer\nCOMPANY: Company Name\nDATES: 07/2004 - 10/2006\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nJOB TITLE: Project Engineer\nCOMPANY: Company Name\nDATES: 07/2004 - 10/2006\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nDEGREE: B.E: Computer Science and Engineering\nINSTITUTION: Folsom Lake College\nDATES: December 2016",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nDEGREE: Matriculation\nINSTITUTION: Karunya Institute of Technology, Coimbatore\nDATES: May 2004",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18752129.pdf\nDEGREE: S.S.L.C\nINSTITUTION: Sri Vijay Vidyalaya Matriculation HSS, Dharmapuri\nDATES: April 1998",
+        "metadata": {
+            "source_file": "18752129.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

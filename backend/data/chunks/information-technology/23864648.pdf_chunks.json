@@ -1,0 +1,74 @@
+[
+    {
+        "text": "SOURCE: 23864648.pdf\nIDENTITY: Candidate Profile (23864648.pdf)\nSUMMARY: Results-driven IT executive management professional with 20 years of experience in diverse industries, including healthcare and marketing. Expertise includes team leadership, technical architecture, training and development, disaster recovery planning, and information protection analysis.\nSKILLS: Infrastructure Management, Data Center Operations, Project Management, Team Building/Coaching, Vendor Management, Disaster Recovery Planning, Information Protection Analysis, Technical Architecture, Training and Development",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: Vice President Information Technology Infrastructure Operations\nCOMPANY: Company Name\nDATES: 06/2008 - Present\nDESCRIPTION: ['Reduced overall network bandwidth costs over 15% through ISP consolidation and management.', 'Managed cloud-based phone system (8x8) in multiple remote locations as well as on-premise phone systems.', 'Responsible for Infrastructure Operations annual budget, including purchasing new equipment, software licenses, and network equipment.', 'Led, mentored, and developed a team of infrastructure engineers, architects, and administrators across multiple geographic locations.', 'Managed multiple datacenters, on-premise network and server, and cloud presence.', 'Responsible for vendor relationships, contracts, negotiating, and change management.', 'Successfully migrated over 700 users from three different domain On-Premise Exchange servers to MS Exchange online under a single domain.', 'Planned and executed migration of all on-prem SaaS servers and applications to a cloud-based solution.', 'Led, managed, and supported the design, development, implementation of infrastructure hardware, software, and network components as well as disaster recovery and business continuity practices.', 'Currently managing infrastructure and IT operations in an offshore delivery center.', 'Documented and executed IT policies company-wide.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: Director of Network Operations\nCOMPANY: Company Name\nDATES: 07/2006 - 06/2008\nDESCRIPTION: ['Maintained Nortel BCM telephony servers, including both analog and VoIP phones.', 'Provided technical support to designers, marketing, sales departments, suppliers, engineers, and other team members throughout the product development and implementation process.', 'Monitored functioning of equipment and made necessary modifications to ensure system operated in conformance with specifications.', 'Built, tested, and modified product prototypes using working models or theoretical models constructed with computer simulation.', 'Stored, retrieved, and manipulated data for analysis of system capabilities and requirements.', 'Set up, maintained, and monitored over 90 remote branch office locations each with internet access tied back to Chicago office through IPsec tunnel to Cisco ASA.', 'Responsible for Entrapass Security system allowing access to suite doors utilizing ID badge.', 'Setup, configured, and supported multiple CRM and ERP systems (Sage MAS500 and CRM Dynamics), as well as converting QuickBooks DB to Sage MAS 500.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: Information Operations Specialist\nCOMPANY: Company Name\nDATES: 02/2005 - 07/2006\nDESCRIPTION: ['Responsible for administering Microsoft 2000/2003 environment consisting of 50 primarily Proliant servers including patch management, account maintenance, and other general system administration duties.', 'Maintained Cisco Call Manager Application and Unity Server providing VoIP services to user community.', 'Built new PC deployment image using Symantec Ghost and Intrinsic Swimage, responsible for creating silent install packages for all third-party applications.', 'Implemented new backup procedures using Legato Networker tape backup systems and a Qualstar Jukebox bringing the hospital within HIPAA standards compliance.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: Customer Care Representative - Help Desk Technician\nCOMPANY: Company Name\nDATES: 09/2003 - 02/2005\nDESCRIPTION: ['Primarily supported LawInContext, BakerMaks, and Client Matter Intake System (CMIS).', 'Active team member providing regression testing of various software builds of a proprietary law document management solution.', 'Administered a Linux-based system to host an internal Knowledge Base Portal assisting other help desk agents with daily troubleshooting.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: System Administrator\nCOMPANY: Company Name\nDATES: 10/1998 - 12/2001\nDESCRIPTION: ['Administered several enterprise servers running a mixed environment including Sun Solaris, Red Hat Linux, FreeBSD, SCO Unix, and Windows NT/2000.', 'Developed and maintained UNIX shell scripts used to automate daily help desk agent tasks.', 'Selected to attend a 15-week IBM Emerging Leaders workshop that included training in breakthrough thinking, team building, team performance, and managing multiple priorities.', 'Designed and developed UNIX login reauthorization program using C, Shell Scripting, Oracle, and web development resulting in approximately 40,000 unused or unauthorized UNIX logins to be cleared from servers.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nJOB TITLE: Healthcare Systems Specialist\nCOMPANY: Company Name\nDATES: 02/1993 - 11/1998\nDESCRIPTION: ['Maintained records of goods ordered and received.', 'Reviewed, evaluated, and approved specifications for issuing and awarding bids.', 'Controlled purchasing department budgets.', 'Maintained and administered computer networks and related computing environments including computer hardware, systems software, applications software, and all configurations.', 'Performed data backups and disaster recovery operations.', 'Designed, configured, and tested computer hardware, networking software, and operating system software.']",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nDEGREE: Bachelor of Science in Computer Science\nINSTITUTION: Troy State University\nDATES: ",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 23864648.pdf\nDEGREE: Associate of Science in Healthcare Systems\nINSTITUTION: Community College of the Air Force\nDATES: ",
+        "metadata": {
+            "source_file": "23864648.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

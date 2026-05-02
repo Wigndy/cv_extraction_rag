@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 25824789.pdf\nIDENTITY: Candidate Profile (25824789.pdf)\nSUMMARY: HUMAN RESOURCES MANAGER with extensive background in administrative duties, including staff development and training, mediation, conflict resolution, benefits and compensation training, HR records management, HR policies development and legal compliance.\nSKILLS: ADA, ADMINISTRATIVE SKILLS, coaching, Employee Relations, training employees, English, Special Events, hiring, HRIS, Human Resources, HR, InDesign, Leadership Development, Director, managing, Mediation, Microsoft Office Suites, Publisher, Sharepoint, Newsletters, Organizational Development, PeopleSoft, Performance Management, Policies, Project Management, quality, Quark, managing the restaurant, safety, scheduling, Spanish, supervision, Teacher, Teaching, training material, Web Design, workshops",
+        "metadata": {
+            "source_file": "25824789.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 25824789.pdf\nJOB TITLE: HR Manager\nCOMPANY: Company Name City , State\nDATES: 01/2007 to Current\nDESCRIPTION: Developed, administered, and coordinated training opportunities for University staff and faculty. Implemented TESOL program, conducted exit interviews, managed performance evaluation system, coordinated awards programs, and maintained orientation schedules.",
+        "metadata": {
+            "source_file": "25824789.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25824789.pdf\nJOB TITLE: HR Representative III\nCOMPANY: Company Name City , State\nDATES: 01/2001 to 01/2007\nDESCRIPTION: Trained employees on PeopleSoft Time and Labor module, administered FMLA program, managed HR records. Trained over 250 time keepers, conducted workshops, facilitated Spanish training.",
+        "metadata": {
+            "source_file": "25824789.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25824789.pdf\nJOB TITLE: Restaurant Manager & Trainer\nCOMPANY: Company Name City , State\nDATES: 01/1993 to 01/2001\nDESCRIPTION: Managed restaurant performance and trained new employees. Ensured guest satisfaction, maintained quality standards in food, health, service, and safety.",
+        "metadata": {
+            "source_file": "25824789.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25824789.pdf\nDEGREE: Bachelor of Science (BS) : Sociology\nINSTITUTION: TEXAS WOMAN'S UNIVERSITY City , State\nDATES: 1999",
+        "metadata": {
+            "source_file": "25824789.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

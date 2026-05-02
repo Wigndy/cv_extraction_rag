@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 18084150.pdf\nIDENTITY: Candidate Profile (18084150.pdf)\nSUMMARY: Quality-driven analytical professional with experience in recruitment, retention, staff development, safety and health, mediation, benefits and compensation, HR audit and records management, and legal compliance.\nSKILLS: ADP, Benefits, Budget, Databases, Employee relations, Special events, Senior management, General Manager, Hiring, HRIS, Insurance, Kronos, Labor relations, Lawson, Leadership, Managing, Medical Manager, Meetings, Access, Excel, MS Office, Outlook, PowerPoint, Word, Newsletter, Oracle, Organizational development, Payroll, PeopleSoft, Performance reviews, Personnel, Policies, QuickBooks, Record keeping, Recruiting, Reporting, Retail, Safety, Teamwork, Troubleshoot",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18084150.pdf\nJOB TITLE: Sr. HR Generalist\nCOMPANY: Company Name\nDATES: 01/2012 to Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18084150.pdf\nJOB TITLE: Office Manager\nCOMPANY: Company Name\nDATES: 01/2010 to 01/2011\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18084150.pdf\nJOB TITLE: HR Specialist\nCOMPANY: Company Name\nDATES: 01/2008 to 01/2010\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18084150.pdf\nDEGREE: Master of Science in Industrial/Organization Psych\nINSTITUTION: University of Phoenix\nDATES: 2012",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18084150.pdf\nDEGREE: BA in Business Administration Human Resources Management\nINSTITUTION: Interamerican University of Puerto Rico\nDATES: 2009",
+        "metadata": {
+            "source_file": "18084150.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

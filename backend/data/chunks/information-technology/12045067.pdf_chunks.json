@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 12045067.pdf\nIDENTITY: Candidate Profile (12045067.pdf)\nSUMMARY: Experienced IT specialist with over a decade of experience in managing and implementing complex data networks, telecommunications systems, and IT infrastructure projects. Skilled in project management, engineering support, and system integration.\nSKILLS: Project Management, Engineering Support, System Integration, Telecommunications Systems, Data Networks, IT Infrastructure, Technical Oversight, Financial Planning and Tracking, Contract Engineering Services, Acquisition Documentation Development",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nJOB TITLE: Project Manager\nCOMPANY: US Army Information Systems Engineering Command (USAISEC)\nDATES: 2019-2023\nDESCRIPTION: Managed the new C4 facility for JSOC at Ft Bragg, NC. Coordinated daily project activities and ensured IT infrastructure installation met technical specifications.",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nJOB TITLE: Project Coordinator\nCOMPANY: US Army Information Systems Engineering Command (USAISEC)\nDATES: 2019-2023\nDESCRIPTION: Led the ARCENT relocation project. Identified and analyzed requirements, assigned tasks to IPT, and provided technical oversight.",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nJOB TITLE: Systems Integration Analyst\nCOMPANY: Company Name 1/4\nDATES: 2009-2019\nDESCRIPTION: Developed FDC, SDPs, and other acquisition documentation for complex IT projects. Provided engineering support for C2 facility upgrades and USARC BRAC relocation.",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nJOB TITLE: Communications Engineer\nCOMPANY: U.S. Army Information Systems Engineering Command (USAISEC)\nDATES: 2001-2009\nDESCRIPTION: Provided IT engineering services for C2 facilities and supported USARSO and IMA projects at Fort Sam Houston, Texas.",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nDEGREE: Bachelor of Science in Information Technology\nINSTITUTION: University of Phoenix\nDATES: 2005",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nDEGREE: Associate of Applied Science in Electronic Technology\nINSTITUTION: Cochise College\nDATES: 2003",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 12045067.pdf\nDEGREE: Associate in General Studies\nINSTITUTION: AGS Cochise College\nDATES: 2001",
+        "metadata": {
+            "source_file": "12045067.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

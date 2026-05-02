@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 46258701.pdf\nIDENTITY: Candidate Profile (46258701.pdf)\nSUMMARY: Highly efficient HR Coordinator with experience in administrative environments, fast-paced and challenging. Expertise in Microsoft Office Suite, human resources audits, recruiting, and applicant tracking systems.\nSKILLS: Interpersonal skills, Innovative, Microsoft Office Suite expert, Human resources audits, Maintains confidentiality, Organized, Exceptional communicator, Recruiting, Applicant Tracking System, EEO Reporting, HRMS, Best Practices, Database, Employee Performance Review",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 46258701.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 09/2012 - Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 46258701.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 06/2012 - 09/2012\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 46258701.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 08/2008 - 09/2011\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 46258701.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: 02/2003 - 03/2008\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 46258701.pdf\nDEGREE: BA Human Resources\nINSTITUTION: DePaul University\nDATES: ",
+        "metadata": {
+            "source_file": "46258701.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

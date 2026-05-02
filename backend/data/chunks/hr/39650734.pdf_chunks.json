@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 39650734.pdf\nIDENTITY: Candidate Profile (39650734.pdf)\nSUMMARY: Hard Worker, Dedicated, Detailed Oriented, Experienced, Organized, and Highly Motivated. With over 5 years of experience in Human Resource administration and customer service.\nSKILLS: Employment Law, HR Policies & Procedures, Training & Development, Performance Management, Employee Relations and Mediation, Benefits Administration, Orientation & On-Boarding, Organizational Development, Staff Life cycle, HRIS applications (PeopleSoft Enterprise Human Resources), MS Office (Word, Excel, PowerPoint, Access, Outlook), E-Mailing tools-MS Outlook, Windows Outlook, Yahoo and Google, Networking Skills- Job boards and Networking sites, Professional communication skills and interpersonal skills, Bilingual Thai & English, Excellent adaptability in new environments, Hard working, flexible and reliable, Honest & Polite, Shape decision making, Excellent customer service skills, Creative",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 39650734.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Company Name City , State\nDATES: 04/2014 to 02/2016\nDESCRIPTION: ['Processed payroll through Paychex.', 'Processed documentation for employees.', 'Conducted performance reviews.', 'Managed employee scheduling.', 'Coordinated with upper, co-worker, and lower-level teams.']",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39650734.pdf\nJOB TITLE: General Manager\nCOMPANY: Company Name City , State\nDATES: 02/2013 to Current\nDESCRIPTION: ['Increased restaurant productivity by organizing patient charts.', 'Processed payroll through Paychex.', 'Welcomed new employees during orientation.']",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39650734.pdf\nJOB TITLE: Hostess and Waitress\nCOMPANY: Company Name City , State\nDATES: 04/2010 to 11/2016\nDESCRIPTION: ['Interviewed and recruited new hires.', 'Processed payroll.']",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39650734.pdf\nDEGREE: Bachelor of Arts : Humanities/English\nINSTITUTION: THE UNIVERSITY OF THAI CHAMBER OF COMMERCE, City , Thailand\nDATES: 2007",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 39650734.pdf\nDEGREE: Master of Science : Human Resource Management\nINSTITUTION: STRAYER UNIVERSITY, City , State , USA\nDATES: 2014",
+        "metadata": {
+            "source_file": "39650734.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

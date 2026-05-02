@@ -1,0 +1,114 @@
+[
+    {
+        "text": "SOURCE: 23527321.pdf\nIDENTITY: Candidate Profile (23527321.pdf)\nSUMMARY: Visionary leader with extensive experience in SAP implementation and business process re-engineering. Skilled in remote management of globally dispersed teams, RFP development, and delivering investment returns.\nSKILLS: SAP, Business Process Design, Dispersed Team Management",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Head, Information Technology and Information Center\nCOMPANY: Company Name\nDATES: March 2015 - Present\nDESCRIPTION: Provided leadership to the GMS Information Center for high-value analytics.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Director, Supply Chain and Logistics Information Technology\nCOMPANY: Company Name\nDATES: October 2010 - March 2015\nDESCRIPTION: Established supply chain technology direction for global manufacturing organization.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Senior Director, COMET Program\nCOMPANY: Company Name\nDATES: November 2009 - October 2010\nDESCRIPTION: Managed delivery efforts for the global COMET program.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Director, SAP Center of Excellence\nCOMPANY: Company Name\nDATES: May 2005 - November 2009\nDESCRIPTION: Led a $15MM budget with 75 FTEs and 30+ offshore staff. Deployed SAP solutions globally.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Director, Supply Chain Systems\nCOMPANY: Company Name\nDATES: January 2002 - May 2005\nDESCRIPTION: Led the implementation of SAP for US Commercial operations.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Manager, Commercial and Field Force Systems\nCOMPANY: Company Name\nDATES: April 1998 - January 2002\nDESCRIPTION: Led web-based solutions for Schering-Plough's field forces.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Manager, Service Delivery Systems\nCOMPANY: Company Name\nDATES: April 1997 - May 1998\nDESCRIPTION: Led outbound call center solutions for key operations.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Manager, Client Services Systems\nCOMPANY: Company Name\nDATES: February 1994 - April 1997\nDESCRIPTION: Led the implementation of Marketing and Client Services application.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: Project Manager\nCOMPANY: Company Name\nDATES: January 1992 - February 1994\nDESCRIPTION: Led new cash management system implementation for treasury operations.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nJOB TITLE: PC Coordinator\nCOMPANY: Company Name\nDATES: January 1990 - January 1992\nDESCRIPTION: Supported PC hardware and software for the Prudential Help Desk.",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nDEGREE: Master of Business Administration\nINSTITUTION: University of Maryland\nDATES: 2003",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nDEGREE: Master of Science in Computer Science\nINSTITUTION: New Jersey Institute of Technology\nDATES: 1994",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 23527321.pdf\nDEGREE: Bachelor of Science in Computer Science\nINSTITUTION: New Jersey Institute of Technology\nDATES: 1990",
+        "metadata": {
+            "source_file": "23527321.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

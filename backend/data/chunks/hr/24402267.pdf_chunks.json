@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 24402267.pdf\nIDENTITY: Candidate Profile (24402267.pdf)\nSUMMARY: Human resources coordination and management professional with a strong background in employee training and development, new hire orientations, and employee relations. Committed HR Professional with around 3.5 years of experience.\nSKILLS: HRIS, ISO, Recruitment, Performance Appraisal, Training & Development, Leave & Attendance, Entry & Exit",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 24402267.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Company Name, City, State\nDATES: Mar 2008 - Jun 2010\nDESCRIPTION: ['Sourced and shortlisted resumes from job portals and internal data banks.', 'Coordinated interviews and onboarding processes for new hires.', 'Assisted in the design of performance appraisal forms and conducted PMS workshops.', 'Managed HRIS, employee master records, and payroll.', 'Conducted training needs analysis and organized training programs.']",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24402267.pdf\nJOB TITLE: Management Trainee, QA\nCOMPANY: Company Name, City, State\nDATES: Aug 2007 - Dec 2007\nDESCRIPTION: ['Monitored quality processes according to ISO 9001:2000 standards.', 'Conducted induction and kickoff meetings for projects.']",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24402267.pdf\nJOB TITLE: HR Coordinator\nCOMPANY: Company Name, City, State\nDATES: Nov 2006 - Apr 2007\nDESCRIPTION: ['Screened resumes and conducted interviews.', 'Prepared offer letters and completed joining formalities.']",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 24402267.pdf\nDEGREE: MBA in Human Resource\nINSTITUTION: Bankatlal Bhadruka Collage, City, State, India\nDATES: 2005",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 24402267.pdf\nDEGREE: B.COM in Commerce\nINSTITUTION: Pt.Ravishanker Shukla University, City, State, India\nDATES: 2003",
+        "metadata": {
+            "source_file": "24402267.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

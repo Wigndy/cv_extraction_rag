@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 19850482.pdf\nIDENTITY: Candidate Profile (19850482.pdf)\nSUMMARY: Experienced technology leader with a strong background in managing all aspects of front and back office systems, particularly in the Financial Services Industry. Skilled in leadership, project management, and IT security.\nSKILLS: Technology Leadership, Project Management, IT Security, Budgeting & Operational Cost, Team-Building, Training, & Leadership, Goal-Setting & Business Planning, Policy & Procedure Creation, Conflict Resolution & Management, Productivity, Efficiency, & Performance Improvements, Data Center Operations, Operating Systems: Windows 7, XP, Server 2013, 2008, 2003, Microsoft Active Directory, SharePoint, Exchange, Server: 2003, 2007, 2013, VM Ware, Trend Micro, Cisco Infrastructure Routers and Switches, Palo Alto, EMC storage solutions, Market Data & Trading Systems: Open Bloomberg and Server API, FactSet, Fidessa, Tethys, Lava, LEK, ICE, Tradeware, Reuters Eikon, Thomson One, Reuters Station, Instinet, NASDAQ Trader, Advent",
+        "metadata": {
+            "source_file": "19850482.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 19850482.pdf\nJOB TITLE: Senior VP - Information Technology\nCOMPANY: \nDATES: \nDESCRIPTION: Managed IT operations for a global institutional sales and trading firm. Led the relocation of NYC office to new space, managed data center implementation, and implemented VM environment.",
+        "metadata": {
+            "source_file": "19850482.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19850482.pdf\nJOB TITLE: Chief Information Officer\nCOMPANY: \nDATES: \nDESCRIPTION: Managed technology for an institutional trading firm specializing in Fixed Income and Equities products. Implemented disaster recovery plan, negotiated vendor contracts, and upgraded network infrastructure.",
+        "metadata": {
+            "source_file": "19850482.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19850482.pdf\nJOB TITLE: IT Support Manager\nCOMPANY: \nDATES: \nDESCRIPTION: Managed IT support for a firm with 8 branch offices. Implemented market data software and hardware upgrades, managed backups, and coordinated vendor interactions.",
+        "metadata": {
+            "source_file": "19850482.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 19850482.pdf\nDEGREE: B.S. Computer Science\nINSTITUTION: Montclair State University\nDATES: 1999",
+        "metadata": {
+            "source_file": "19850482.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

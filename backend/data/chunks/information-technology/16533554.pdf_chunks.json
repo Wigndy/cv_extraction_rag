@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 16533554.pdf\nIDENTITY: Candidate Profile (16533554.pdf)\nSUMMARY: Highly skilled IT manager with over 16 years of experience in planning, implementing and streamlining IT systems. Strong leader with excellent communication and project management skills.\nSKILLS: Windows 2000, 2003 Server and Professional, Windows XP (Professional and Home), Win 3.11/95/98, DOS 6.22, Citrix ICA, MS Exchange 2000, HP, IBM, Dell, Intel Based Server and Desktop Platforms, Cisco 2500 Switches, Sonic Wall Hardware VPNs, HP Laser Jets, Toshiba E-310 Color Copier, Toshiba and Sony Laptops, Inter-tel, MS Office, Visio, Citrix Metaframe XP, Symantec: PC Anywhere, Ghost, Antivirus, Utilities, Win fax; McAfee Virus Scan, Adobe: Acrobat, Illustrator, Photoshop, Partition Magic, Adware, Spyware, TCP/IP, Wireless 802.11 a/b/g, DNS, WINS, DHCP",
+        "metadata": {
+            "source_file": "16533554.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 16533554.pdf\nJOB TITLE: Information Technology Manager / Network Engineer\nCOMPANY: Wilkes & McHugh\nDATES: Feb 2006 - Present\nDESCRIPTION: Led a team of IT professionals and developers in planning, upgrades, and implementation of IT systems. Reduced IT costs by virtualizing infrastructure using VMware. Implemented Active Directory migration and MPLS network for disaster recovery.",
+        "metadata": {
+            "source_file": "16533554.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 16533554.pdf\nJOB TITLE: Network Engineer\nCOMPANY: Company Name\nDATES: Sep 2003 - Jan 2006\nDESCRIPTION: Administered a Windows 2003 server network environment. Implemented Exchange 2003 mail server and managed security using McAfee Enterprise.",
+        "metadata": {
+            "source_file": "16533554.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 16533554.pdf\nJOB TITLE: Network Support Technician\nCOMPANY: Company Name\nDATES: Jan 2003 - Aug 2003\nDESCRIPTION: Provided network and desktop support to over 800 users. Managed Active Directory and performed hardware/software upgrades.",
+        "metadata": {
+            "source_file": "16533554.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 16533554.pdf\nDEGREE: Bachelor of Science, Management Information Systems\nINSTITUTION: University of Maryland University College\nDATES: ",
+        "metadata": {
+            "source_file": "16533554.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

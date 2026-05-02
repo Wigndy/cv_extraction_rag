@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 21780877.pdf\nIDENTITY: Candidate Profile (21780877.pdf)\nSUMMARY: Information Technology Specialist with over 17 years of experience in managing IT/communications environments, supervising work centers, and performing ejection system maintenance.\nSKILLS: budget, cabling, cisco, hardware, Client, documentation, Electrician, feasibility studies, funds, Information Technology, inspector, LAN, materials, access, network, networking, personnel, Telephone Systems, printers, processes, Project Management, Quality Assurance, routers, system design, technical assistance, Technician, Telecommunications, Troubleshoot, troubleshooting, upgrades, video, wiring",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 21780877.pdf\nJOB TITLE: Information Technology Specialist GS11\nCOMPANY: Company Name\nDATES: 07/2004 to Current\nDESCRIPTION: Managed IT/communications environment; planned and installed system design, hardware, and software; provided technical support.",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 21780877.pdf\nJOB TITLE: Cyber Transport/Client Systems Workcenter Supervisor\nCOMPANY: Company Name\nDATES: 02/2001 to Current\nDESCRIPTION: Supervised work center personnel; managed systems through troubleshooting and performance testing.",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 21780877.pdf\nJOB TITLE: F-16 Ejection System Technician\nCOMPANY: Company Name\nDATES: 07/1996 to 07/2000\nDESCRIPTION: Troubleshot and repaired ejection systems; performed preventative maintenance.",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 21780877.pdf\nDEGREE: BS Degree in Electrical Engineering\nINSTITUTION: University of TN\nDATES: MAY 2003",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 21780877.pdf\nDEGREE: HS Diploma in General Studies\nINSTITUTION: Brockport High School\nDATES: JUN 1996",
+        "metadata": {
+            "source_file": "21780877.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

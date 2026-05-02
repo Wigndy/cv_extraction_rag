@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 20824105.pdf\nIDENTITY: Candidate Profile (20824105.pdf)\nSUMMARY: Actively seeking full time opportunities from December 2019\nSKILLS: Bash Scripting, CCNA, Cisco Certified Network Associate, Client-server, DHCP, DNS, Financial, Firewalls, FTP, Gateway, HTTP, IP Networking Protocols, ISIS, LAN, Linux, Windows Server, Multimedia, Enterprise Network Security, Network, Networking, Networks, Operating Systems, Oracle, OSPF, Programming, Protocols, Python, RIP, Routing, SSH, Switches, TCP/IP, VPN, WAN",
+        "metadata": {
+            "source_file": "20824105.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 20824105.pdf\nJOB TITLE: Information Technology and AWS Admin Intern\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "20824105.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20824105.pdf\nJOB TITLE: Network Engineer Intern\nCOMPANY: Company Name\nDATES: \nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "20824105.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 20824105.pdf\nDEGREE: Master of Science\nINSTITUTION: Northeastern University, Solapur University\nDATES: ",
+        "metadata": {
+            "source_file": "20824105.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 20824105.pdf\nDEGREE: Bachelor of Engineering\nINSTITUTION: Not specified\nDATES: ",
+        "metadata": {
+            "source_file": "20824105.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

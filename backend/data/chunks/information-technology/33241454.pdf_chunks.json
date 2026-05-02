@@ -1,0 +1,98 @@
+[
+    {
+        "text": "SOURCE: 33241454.pdf\nIDENTITY: Candidate Profile (33241454.pdf)\nSUMMARY: Seeking a position as an Information Technology Specialist. Over 5 years of information technology experience in the U.S. Army, including over 1 year of supervisory experience.\nSKILLS: Army, Cisco, counseling, customer assistance, database, documentation, Information Technology, inventory, IP, LAN, Windows 7, Network, personnel, policies, protocols, repairs, Routing, San, supervisor, test equipment, troubleshoot, WAN",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nJOB TITLE: Information Technology Supervisor\nCOMPANY: Company Name\nDATES: 01/2011 to 05/2014\nDESCRIPTION: ['Supervised up to 10 personnel at one time.', 'Trained and evaluated IT equipment setup.', 'Managed inventory of over $1 million worth of network communications equipment.', 'Maintained signal communications for Fort Bragg army base.']",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nJOB TITLE: Information Technology Technician\nCOMPANY: Company Name\nDATES: 01/2009 to 01/2011\nDESCRIPTION: ['Maintained communications equipment.', 'Troubleshot and repaired malfunctioning equipment.', 'Set up and added computer systems to a communication network.']",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nJOB TITLE: Radiology Technologist\nCOMPANY: Company Name\nDATES: 05/2008 to 09/2008\nDESCRIPTION: ['Performed radiological examinations.', 'Set up and adjusted medical devices.', 'Provided customer assistance.']",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nJOB TITLE: Command Post Controller\nCOMPANY: Company Name\nDATES: 10/2001 to 10/2005\nDESCRIPTION: ['Provided command and control support.', 'Relayed instructions and records.']",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: 2012",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: 2012",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: City, State",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: 2009 City, State",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: 2008 Northwest Florida State College, City, State",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: State",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 33241454.pdf\nDEGREE: \nINSTITUTION: \nDATES: City, State",
+        "metadata": {
+            "source_file": "33241454.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 18297650.pdf\nIDENTITY: Candidate Profile (18297650.pdf)\nSUMMARY: Dynamic and result-oriented professional with extensive experience in technical recruiting, focusing on placing high-end technical professionals in the Information Technology Industry. Skilled in sourcing, screening, evaluating, and selecting candidates through structured recruitment processes.\nSKILLS: .NET, C/C++, Java, J2EE, SQL Server, Oracle, SAP, Quality Testing, Engineering (Software, Chemical, Mechanical), Informatica, Data Modeling, Data Warehousing, Internet Research, Resume Database Management, Employment Advertising Campaigns, Referral Networks, Interview Process Coordination, Reference Checks, Candidate Assessment, Requirement Analysis, Applicant Tracking Systems",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nJOB TITLE: Technical Recruiter\nCOMPANY: City, State\nDATES: 01/2007 - 01/2008\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nJOB TITLE: Technical Recruiter\nCOMPANY: Company Name, City, State\nDATES: 03/2006 - 01/2007\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nJOB TITLE: Senior Executive\nCOMPANY: Mitra Technology Foundation, City\nDATES: 06/2002 - 06/2005\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nDEGREE: Post Graduate Diploma Management\nINSTITUTION: Balaji Institute of Modern Management, India\nDATES: 2002",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nDEGREE: LLM in Labor Laws and Labor Welfare\nINSTITUTION: Symbiosis Law College, India\nDATES: 2002",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18297650.pdf\nDEGREE: Bachelor of Commerce\nINSTITUTION: H. P. State University, India\nDATES: 2000",
+        "metadata": {
+            "source_file": "18297650.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

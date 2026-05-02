@@ -1,0 +1,74 @@
+[
+    {
+        "text": "SOURCE: 18422164.pdf\nIDENTITY: Candidate Profile (18422164.pdf)\nSUMMARY: Results-driven professional with comprehensive experience in human resources, customer service, and financial services; strengths include problem-solving, strategic thinking and creativity; known as a self-motivated individual with the ability to work well with others in fast-paced environments with outstanding communication skills.\nSKILLS: articulate, benefits, case management, employee communications, Human Resources, payroll, processing payroll, personnel, policies, processes, quality, recruiting, research, Staffing, phone, workflow",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: HR SPECIALIST\nCOMPANY: Company Name, City, State\nDATES: Jul 2013 - Current\nDESCRIPTION: ['Support the HR Operations Service Delivery model by serving as a primary contact for escalated issues.', 'Actively listen and resolve customer needs related to Human Resource Services.', 'Monitor case management queues and ensure accurate documentation of issue resolution.', 'Provide support to senior team members on special projects.', 'Maintain employee records through imaging and indexing documents.']",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: STAFFING SPECIALIST\nCOMPANY: Company Name, City, State\nDATES: Jun 2008 - Jun 2013\nDESCRIPTION: ['On-site point of contact for Co-op/Intern program.', 'Completed applicant tracking in Hire systems and on-boarded co-ops/interns.', 'Processed payroll and created Identity Manager accounts/badging.', 'Conducted exit interviews with co-ops.']",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: STAFFING COORDINATOR\nCOMPANY: Company Name, City, State\nDATES: Aug 2007 - Apr 2008\nDESCRIPTION: ['Responded to associate benefit questions and resolved issues.', 'Assisted with HR-related training and workshops.', 'Maintained current knowledge of HR practices, laws, and regulations.']",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: RECRUITING COORDINATOR\nCOMPANY: Company Name, City, State\nDATES: Sep 2004 - Aug 2007\nDESCRIPTION: ['Conducted phone interviews with applicants.', 'Developed relationships with key resources for sourcing candidates.']",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: CUSTOMER SERVICE REPRESENTATIVE\nCOMPANY: Company Name, City, State\nDATES: Feb 2001 - Apr 2004\nDESCRIPTION: ['Answered inbound calls for 401(k) customers.', 'Processed transactions on 401(k) accounts.']",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nJOB TITLE: TRUSTEE BOARD MEMBER\nCOMPANY: Company Name, City, State\nDATES: Sep 2014 - Dec 2015\nDESCRIPTION: ['Assisted with making decisions for the church.', \"Processed payroll checks and analyzed/amended the church's budget.\"]",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nDEGREE: Masters in Public Administration\nINSTITUTION: Northern Kentucky University, City, State\nDATES: May 2006",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18422164.pdf\nDEGREE: Bachelor of Arts in English Writing\nINSTITUTION: Northern Kentucky University, City, State\nDATES: May 2002",
+        "metadata": {
+            "source_file": "18422164.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

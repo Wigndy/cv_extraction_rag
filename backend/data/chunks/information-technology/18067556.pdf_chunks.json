@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 18067556.pdf\nIDENTITY: Candidate Profile (18067556.pdf)\nSUMMARY: Information Technology Manager with a focus on IT transformation and process improvement currently looking for opportunities in the greater Miami, FL metropolitan area. Zeel has experience working with corporate data in the areas of data presentation, structured and unsecured datasets, data mining, statistical analysis, UI creation, data warehouse management, and assessing data quality.\nSKILLS: Microsoft Office Suite with deep Office 365, Dynamics 365, Project, PowerApps, PowerBI, Flow, Sharepoint, Excel, Access, Intune, Visio, EMS, and Azure proficiency, Programming/Databases: SQL (SSRS, SSIS, SSAS), VBA, DAX, HTML, CSS, VB.NET, R, Powershell, Python, Oracle, Business Intelligence Packages: PowerBI, Qlik (Qlik View/QlikSense), SiSense, Tableau, Datorama, Yellowfin, Crystal, SSRS, Strong knowledge of AWS, Azure, Cisco Switch Management, VMWare, Hyper-V, RDP, Automation Anywhere, Active Directory, Hardware and software administration for 10S, Android, Windows, Red Hat Linux, RF devices, VB.NET, EDI, Procurement, Ventilation, Clientele, Windows, Supply chain, Accounting, ERP, Programming, Visio, Client, Negotiating, Supply Chain, Active Directory, Ad, AP, Approach, Architect, Automate, Automation, automation tools, billing systems, budgeting, budgets, budget, BI, Business Intelligence, cable, Cisco, hardware, contracts, Crystal, CSS, clientele, client, clients, data analysis, data entry, data analysis and modeling, data warehouses, Databases, Data Warehousing, direction, documentation, EDI, ERP, ETL, Facility Management, Finance, financial, floor plans, forecasting, functional, help desk, HTML, Information Technology, insurance, inventory, logic, logistics, marketing, Access, Excel, exchange, Microsoft Office Suite, Office, Sharepoint, Windows, negotiating, enterprise, network, Oracle, Oracle database, organizational, cameras, policies, pricing, process improvement, procurement, Programming, progress, Project Management, Python, Quality, real-time, Red Hat Linux, renovation, reporting, Retail, RFP, risk management, Sales, sales analysis, servers, SOP, SQL, strategy, strategic plans, structured, supplier management, supply chain, Supply Cham Management, switches, Switch, system integration, Tableau, tax, user training, telecom, translating, upgrading, ventilation, Visio, VBA, workflow",
+        "metadata": {
+            "source_file": "18067556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18067556.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Rowan College\nDATES: 2015-2017\nDESCRIPTION: Engaged in holistic business analysis, process improvement, strategic planning, budgeting, contract negotiations, vendor relations, resource management, instituting best practices, and overseeing/implementing multiple enterprise systems (ERP, WMS, CRM, WOM, QMS, SCP).",
+        "metadata": {
+            "source_file": "18067556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18067556.pdf\nJOB TITLE: Co-Founder\nCOMPANY: Indoor Hydroponic Farming Company\nDATES: 2015-2017\nDESCRIPTION: Bringing a hyper-local product to the Camden and Philadelphia region. Generated $100K in its first year via strategic relationships with food management services, local restaurants, farmer's markets, and Whole Foods retail chain.",
+        "metadata": {
+            "source_file": "18067556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18067556.pdf\nDEGREE: Bachelor of Science\nINSTITUTION: Rowan University\nDATES: 2017",
+        "metadata": {
+            "source_file": "18067556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18067556.pdf\nDEGREE: Associates of Science\nINSTITUTION: Rowan College\nDATES: 2015",
+        "metadata": {
+            "source_file": "18067556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

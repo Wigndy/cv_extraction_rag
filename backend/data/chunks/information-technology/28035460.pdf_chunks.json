@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 28035460.pdf\nIDENTITY: Candidate Profile (28035460.pdf)\nSUMMARY: Accomplished Chemical Engineer and IT Professional with over 10 years of international work experience in chemical engineer development. Skilled in research, data analysis, and problem-solving.\nSKILLS: Administrative and organizational skills, Excellent communication skills, Problem solving skills, Research and development model, Technical support, Troubleshooting, Database management, Electronic health records, Information security, Market development, Cost reduction",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name • State\nDATES: 08/2015 to 05/2020\nDESCRIPTION: [\"Built, implemented or supported electronic health records and other systems that store patient's data.\", 'Assisted in network management and software development.', 'Took periodic review of set standards and database.']",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nJOB TITLE: Principal Chemical Engineer / Information Technology Specialist\nCOMPANY: National Board for Technology Incubation, Abuja Nigeria (Federal Ministry of Science and Technology)\nDATES: 10/2005 to 06/2015\nDESCRIPTION: ['Monitored, implemented, and maintained IT systems.', 'Produced technical reports, analyzed data, and built databases.', 'Facilitated discussions to resolve a safety concern with a key process monitoring instrument.', 'Planned and designed technology related activities aimed at nurturing the growth of innovative businesses.', 'Provided technical support and capacity building in science and technology.', 'Collaborated with market development on new IT technologies for industrial and consumer groups.']",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nJOB TITLE: Facility Engineer Intern\nCOMPANY: Company Name\nDATES: 10/2002 to 09/2003\nDESCRIPTION: ['Analyzed process data from newly revamped furnace to improve efficiency of long-term performance monitoring plan by over 50%.', 'Developed and maintained engineering/operating standards through periodic review.', 'Improved 40% Reliability/uptime performance and cost reduction efforts for the production units.', 'Managed materials through preventive/corrective maintenance of products.']",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nJOB TITLE: Engineer Intern\nCOMPANY: Company Name\nDATES: 08/2000 to 01/2001\nDESCRIPTION: ['Produce a piping and instrumentation diagram of the pumphouse, cooling tower and condensate lines.', 'Led weekly group meetings with interns and management for future improvements.', 'Monitored, troubleshoot, and observed operations and processes for quality, damages and/or defects.']",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nDEGREE: Master of Science\nINSTITUTION: University of Lagos - City\nDATES: 11/2005",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nDEGREE: Master of Science Degree\nINSTITUTION: University of the District of Columbia - City\nDATES: N/A",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 28035460.pdf\nDEGREE: Bachelor of Engineering\nINSTITUTION: Federal University of Technology - State\nDATES: 09/2001",
+        "metadata": {
+            "source_file": "28035460.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 80162314.pdf\nIDENTITY: Candidate Profile (80162314.pdf)\nSUMMARY: Dependable, self-motivated, and assertive Human Resources Professional with innovative solutions and personal accountability. Promotes a team-oriented environment.\nSKILLS: Staff Recruitment & Retention, Employee Relations, retirement, Payroll, health and welfare, HR Program/Project Management, Orientation & on-boarding, Training & Development, Performance Management, Leave of absence and ethics, HR Policies & Procedures, Organizational Development, People's skill and outstanding communication",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nJOB TITLE: HR Professional\nCOMPANY: Company Name\nDATES: 04/2013 to 06/2014\nDESCRIPTION: ['Responded to and resolved employee and leadership issues.', 'Provided accurate information and counsel via phone, email, and in-person interactions.', 'Trained new employees on procedures.']",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nJOB TITLE: HR Assistant\nCOMPANY: Liyanage & Co\nDATES: 07/2011 to 05/2013\nDESCRIPTION: ['Created HR policies and procedures.', 'Recruited employees and managed benefits databases.', 'Developed training programs.']",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nJOB TITLE: Client/Advisor Professional\nCOMPANY: Ameriprise Financial\nDATES: 11/2011 to 07/2012\nDESCRIPTION: ['Assisted advisors and clients with financial products.', 'Processed customer cases.']",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nJOB TITLE: Personal Banker\nCOMPANY: Wells Fargo Bank\nDATES: 09/2008 to 09/2011\nDESCRIPTION: ['Provided customer assistance for lending products.', 'Coached tellers and representatives.']",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nDEGREE: Master of Art in Human Resources Management\nINSTITUTION: Concordia University\nDATES: May 2012",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 80162314.pdf\nDEGREE: Bachelor of Arts in HR & Communication\nINSTITUTION: University of Colombo, Sri Lanka\nDATES: April 2007",
+        "metadata": {
+            "source_file": "80162314.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 64017585.pdf\nIDENTITY: Candidate Profile (64017585.pdf)\nSUMMARY: Versatile IT Specialist with a proven record of success in large institutions and entrepreneurial organizations. Skilled in problem-solving, technical leadership, and communication.\nSKILLS: Active Directory, premiere, ads, Advertising, IBM AIX, Apple, architect, Arts, catalog, color, com, Clients, digital photography, digital video, direct mail, disaster recovery, eCommerce, Final Cut Pro, SGI Irix, IT support, legal, Linux, Logic, loss prevention, Lotus Notes, marketing strategy, Marketing, Microsoft Exchange, MS Exchange, Mail, Network design, network, newspaper, policies, Prepress, print advertising, print production, processes, Sales, upgrading, video post production, website",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 64017585.pdf\nJOB TITLE: Information Technology Consultant, Managing Member\nCOMPANY: Company Name\nDATES: January 2017 to Current\nDESCRIPTION: ['Worked with product designers and managers on application interactions.', 'Installed and repaired hardware/software/equipment.', 'Set up equipment for employee use.', 'Conducted diagnostics and provided technical support.']",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 64017585.pdf\nJOB TITLE: Chief Technology Officer, Partner\nCOMPANY: Company Name\nDATES: August 2015 to January 2017\nDESCRIPTION: ['Re-branded dealership and launched new eCommerce website.', 'Managed over 15 staff members in sales and service departments.', 'Streamlined processes using new technology.', 'Managed legal and security policies.']",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 64017585.pdf\nJOB TITLE: CTO, Partner\nCOMPANY: Company Name\nDATES: May 2012 to August 2015\nDESCRIPTION: ['Provided IT solutions for small and medium businesses in the New York metro area.', 'Offered infrastructure design, server technologies, and remote support services.']",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 64017585.pdf\nJOB TITLE: IT Manager\nCOMPANY: Company Name\nDATES: August 2010 to May 2012\nDESCRIPTION: ['Managed a staff of ten IT support staff.', 'Developed new standards and IT policies.', 'Led migration to cloud mail.']",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 64017585.pdf\nDEGREE: BS in Print Production, Graphic Design, Computer Science\nINSTITUTION: St. John's University\nDATES: 1993",
+        "metadata": {
+            "source_file": "64017585.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

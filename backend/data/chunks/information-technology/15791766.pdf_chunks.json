@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 15791766.pdf\nIDENTITY: Candidate Profile (15791766.pdf)\nSUMMARY: Technical Support Professional skilled at resolving complex customer service issues in a timely manner. Enjoys troubleshooting to find solutions to technical issues. Successful at driving financial and productivity results in fast-paced environments.\nSKILLS: A+, Active Directory, agile, Avaya, call center, communication, CA, hardware, contracts, critical thinking, customer service, decision-making, documentation, functional, help-desk, HP printers, IP, laptop computers, Laptops, Microsoft Certified Professional, MCSE, office, MS Outlook, Windows, Windows OS, negotiating, Enterprise, Network, networks, PBX, PC Hardware, telephone systems, Copiers, Printers, problem solving skills, quality control, risk analysis, Routers, scheduling, servers, SMS, Switches, TCP/IP, tech support, phones, troubleshooting, Upgrades, VOIP, VPN, Xerox copiers",
+        "metadata": {
+            "source_file": "15791766.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 15791766.pdf\nJOB TITLE: Project Manager\nCOMPANY: Company Name 1\nDATES: 07/2013 - Current\nDESCRIPTION: ['Built and maintained successful relationships with service providers, dealers, and consumers.', 'Provided base-level IT support to company personnel.', 'Defined project deliverables and monitored task status.', 'Delivered status reports for budgeting and planning purposes.', 'Collaborated with cross-functional teams to draft project schedules and plans.', 'Monitored costs, timescales, and resources used to achieve goals.', 'Monitored team progress and enforced deadlines.', 'Partnered with departments to address issues.', 'Planned, implemented, and managed all project contracts, performed scheduling, risk analysis, quality control, and trained staff.']",
+        "metadata": {
+            "source_file": "15791766.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 15791766.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name 2\nDATES: 03/2004 - 07/2013\nDESCRIPTION: ['Trained new employees and explained protocols clearly.', 'Researched issues on various computer systems and databases to resolve complaints and answer inquiries.', 'Analyzed system problems, performed troubleshooting, ensured connectivity, and trained staff.', 'Managed and supported workstations on TCP/IP, VPN, and WiFi networks.', 'Managed Active Directory, SCCM, VOIP, Avaya PBX systems.', 'Supported the integration of new technologies such as Cloud printing and CSO into operation.', 'Performed weekly health checks via SMS for problem resolutions.', 'Performed routine maintenance on workstations, IP phones, Xerox copiers, HP printers, and laptop computers.', 'Performed all hardware/software upgrades for servers, workstations, copiers, and printers.', 'Acted as a liaison to resolve technical issues for vendors, managers, trainers, etc.', 'Developed and maintained documentation needed by support staff including troubleshooting steps, installation instructions, new tools overviews, and contact lists.', 'Notified users of network/system issues.', 'Established solid work relationships with management, technical staff, vendors, end users.']",
+        "metadata": {
+            "source_file": "15791766.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 15791766.pdf\nDEGREE: Master of Science: Management, Project Management\nINSTITUTION: Colorado Technical University\nDATES: 06/2012",
+        "metadata": {
+            "source_file": "15791766.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 15791766.pdf\nDEGREE: Bachelor of Science: Information Technology\nINSTITUTION: University of Phoenix\nDATES: 10/2009",
+        "metadata": {
+            "source_file": "15791766.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

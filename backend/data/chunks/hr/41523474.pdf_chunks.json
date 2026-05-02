@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 41523474.pdf\nIDENTITY: Candidate Profile (41523474.pdf)\nSUMMARY: Dual specialization in Human Resource Management and Finance with experience in HR executive roles.\nSKILLS: SPSS Software, MS Office - Word, Excel, PowerPoint, Internet & E-mail operations, Professional management skills, Meeting objectives, Identifying problems, Effective communication skills, Deadline-driven environments, Team-building skills",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 41523474.pdf\nJOB TITLE: HR Executive\nCOMPANY: Company Name\nDATES: May 2013 - June 2014\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 41523474.pdf\nDEGREE: MBA: Management\nINSTITUTION: Doon University\nDATES: 2012",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 41523474.pdf\nDEGREE: \nINSTITUTION: \nDATES: 2 Months",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 41523474.pdf\nDEGREE: \nINSTITUTION: \nDATES: 3 Weeks",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 41523474.pdf\nDEGREE: \nINSTITUTION: \nDATES: N/A",
+        "metadata": {
+            "source_file": "41523474.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

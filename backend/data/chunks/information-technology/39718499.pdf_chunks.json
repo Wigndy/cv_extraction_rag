@@ -1,0 +1,34 @@
+[
+    {
+        "text": "SOURCE: 39718499.pdf\nIDENTITY: Candidate Profile (39718499.pdf)\nSUMMARY: Enthusiastic, reliable recent graduate with academic background in business and marketing. Strong leadership and management skills.\nSKILLS: Interpersonal Communication, Customer Service, Management, Teamwork, Leadership, Organization, Dependability, Fast Learner, Pressure Management, Positive Attitude, Work Ethic",
+        "metadata": {
+            "source_file": "39718499.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 39718499.pdf\nJOB TITLE: Assistant Football Coach\nCOMPANY: Company Name\nDATES: 03/2014 - Current\nDESCRIPTION: Assist in the design and execution of the offensive scheme for 60+ athletes including 20 wide receivers. Prepare field with all of the necessities for practices and games.",
+        "metadata": {
+            "source_file": "39718499.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39718499.pdf\nJOB TITLE: Property Maintenance Assistant\nCOMPANY: Company Name\nDATES: 09/2010 - Current\nDESCRIPTION: Distribute media equipment to classrooms. Instruct professors through the application of Microsoft and Internet services. Answer phone calls and maintain an organized office for students and professors to enter freely. Performed various maintenance duties necessary to maintain and enhance the value of residential and commercial properties.",
+        "metadata": {
+            "source_file": "39718499.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 39718499.pdf\nDEGREE: Bachelor of Science\nINSTITUTION: Utica College\nDATES: May 2014",
+        "metadata": {
+            "source_file": "39718499.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

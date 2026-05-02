@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 18301617.pdf\nIDENTITY: Candidate Profile (18301617.pdf)\nSUMMARY: Successful fifteen years of experience in IT Management and Technical Support. Skilled in installation, configuration, migration and implementation of server platforms. Dedicated IT Manager well-versed in analyzing and mitigating risk and finding cost-effective solutions.\nSKILLS: Active Directory, Adobe, Antivirus, Backup Exec, Budget, business processes, call center, capacity planning, Cisco, computer assembly, Hardware, contracts, Direct Attached Storage (DAS), Database, Dell, Dell Servers, Designing, Desktops, Documentation, Firewall, HP, hiring, information systems, ISO 9000, leadership, Linux, Logistics and Management, Mac, MAC OS, Managing, Access, Microsoft Certified Professional, Microsoft Exchange, Microsoft Office Professional, Microsoft Project, Microsoft SQL Server, Microsoft Visio Professional, Windows 7, Windows 8, Windows, Network Attached Storage (NAS), Enterprise, Network Printers, Networking, new product development, Operating Systems, PBX, PCI, Phone System, policies, Project Management, quality assurance, quality improvement, QuickBooks Pro, Research, Robotic, safety, Storage Area Network (SAN), teamwork, technical analysis, Troubleshooting, upgrade, Visio Professional, vision, Web Portal, WAN",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 18301617.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Company Name\nDATES: July 2000 to Current\nDESCRIPTION: Provide leadership, vision and management to the IT department. Develop Capitol Budget, monitor and approve department expenditures. Manage network infrastructure, phone system, hardware and software configuration, IT staff, PCI DSS compliance.",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18301617.pdf\nJOB TITLE: Computer Manufacturing Supervisor\nCOMPANY: City\nDATES: September 1998 to September 1999\nDESCRIPTION: Supervised a team of computer assemblers and testers. Organized production, implemented safety procedures, managed documentation control.",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18301617.pdf\nJOB TITLE: Quality Assurance Supervisor\nCOMPANY: Company Name\nDATES: April 1995 to March 1998\nDESCRIPTION: Supervised quality inspectors and software evaluators. Hired, interviewed candidates. Coordinated new product development. Ensured hardware and software compatibility.",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 18301617.pdf\nDEGREE: Bachelor of Science : Information System\nINSTITUTION: University of Phoenix\nDATES: December 2000",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 18301617.pdf\nDEGREE: Associate of Science : Computer Technology\nINSTITUTION: American River College\nDATES: June 1993",
+        "metadata": {
+            "source_file": "18301617.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "text": "SOURCE: 25959103.pdf\nIDENTITY: Candidate Profile (25959103.pdf)\nSUMMARY: Advanced Desktop Support Lead/Manager with over 14 years of experience in IT, providing Tier II-III technical support. Extensive experience working with United Senate end-users across multiple technological platforms.\nSKILLS: Arabic, Back-up, budgets, hardware, client, Database, database management, designing, disaster recovery, documentation, financial, Help Desk, HP, local area network, LAN, Leadership, access, network, networks, NT servers, PC's, policies, printer, processes, Research, SQL, MS SQL, desktop support, training programs, troubleshooting, upgrades, WAN, workflow",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nJOB TITLE: Administrator of Information Technology\nCOMPANY: Company Name\nDATES: January 17th 2007 - Present\nDESCRIPTION: Research, implement and support new technologies. Train staff in support processes and troubleshooting techniques. Establish system specifications by conferring with users; analyze workflow, access, information, and security requirements; design system infrastructure. Plan and execute the selection, installation, configuration, and testing of hardware, software, LAN and WAN networks, and operating and system management systems. Define system and operational policies and procedures. Maintain system performance through monitoring, analysis, and performance tuning. Troubleshoot hardware, software, networks, and operating and system management systems. Design and run system load/stress testing. Escalate application problems to vendor. Secure the system by developing access, monitoring, control, and evaluation; establish and test disaster recovery policies and procedures; complete backups; maintain documentation. Prepare users through training programs and provide support.",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nJOB TITLE: Network Support Engineer\nCOMPANY: United States Senate\nDATES: August 17th 2004 - 2006\nDESCRIPTION: Integrate, select, and develop procedures to support third-party. Provide software, printing, and network access support for the entire Senate community. Offer senior-level support to internal Help Desk operations. Work on integrating with third-party software. Install, configure, and support Capitol Correspond SQL database. Troubleshoot HP printer issues. Connect and configure PCs and NT servers to the network. Ensure hardware and software are working smoothly within the environment. Provide desktop support in a cross-platform environment. Support ongoing development and maintenance of local area networks. Maintain effective security systems. Backup systems and updates. Perform special projects as needed.",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nJOB TITLE: Software Specialist\nCOMPANY: United States Senate\nDATES: August 15th 2000 - 2004\nDESCRIPTION: Provide client site level 2 support for Capitol Correspond database management software running on MS SQL. Install, configure, and support the Capitol Correspond SQL database. Provide client training for the use of Capitol Correspond Database. Troubleshoot issues with MS SQL and printers. Provide client training for the use of Capitol Correspond Database. Connect and configure PCs and NT servers to the network. Provide desktop support in a cross-platform environment. Support ongoing development and maintenance of local area networks. Maintain effective security systems. Backup systems and updates. Perform special projects as needed.",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nDEGREE: Master of Arts: National Security Studies Cyber Security\nINSTITUTION: American Military University\nDATES: 2014",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nDEGREE: State Graduate Certificate: Aerospace, Cyberspace and Joint Professional Education\nINSTITUTION: Air Force Air Command and Staff College\nDATES: 2013",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nDEGREE: Master of Science Computer Information Systems Management\nINSTITUTION: Marymount University\nDATES: 2007",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 25959103.pdf\nDEGREE: Bachelor of Science: Computer Information Systems\nINSTITUTION: Marymount University\nDATES: 1999",
+        "metadata": {
+            "source_file": "25959103.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

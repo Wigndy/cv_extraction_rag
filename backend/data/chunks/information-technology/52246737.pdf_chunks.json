@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 52246737.pdf\nIDENTITY: Candidate Profile (52246737.pdf)\nSUMMARY: Process driven, goal oriented Information Security Leader with 5 years of IT and security experience. Adept at analyzing and remediating threat vectors on an enterprise level, enhancing daily security operations, leading a geographically diverse team, and implementing SOX governance & compliance.\nSKILLS: Active Directory, Anti-Virus, Business Process, Compliance Manager, Firewall, IDS/IPS, Information Security, Linux, Mac, Microsoft Exchange, Network Security, Proxy, Risk Management, Security Technologies, TCP/IP",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nJOB TITLE: Information Technology Provisioning Technician\nCOMPANY: Company Name 1\nDATES: 10/2012 - 08/2013\nDESCRIPTION: Provided support for multiple applications and operating systems. Led executive support team providing 'white-glove' support for AD administration.",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nJOB TITLE: Information Technology Consultant\nCOMPANY: Company Name 1\nDATES: 12/2011 - 02/2013\nDESCRIPTION: Architected and implemented various Exchange and AD deployments. Provided remote/local support to over 7000 employees.",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nJOB TITLE: Information Security & Compliance Manager\nCOMPANY: SolarCity, SAN MATEO, CA\nDATES: November 2013 - PRESENT\nDESCRIPTION: Managed enterprise security initiatives. Implemented forensic imaging solutions and managed SOX compliance programs.",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nDEGREE: Associates of Arts and Sciences (AAS) : Business Administration Software Technology\nINSTITUTION: Heald College\nDATES: ",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nDEGREE: Associate of Applied Sciences (AAS) : Network Security\nINSTITUTION: Heald College\nDATES: ",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 52246737.pdf\nDEGREE: Comptia A Certification, Comptia Security Certification\nINSTITUTION: \nDATES: ",
+        "metadata": {
+            "source_file": "52246737.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

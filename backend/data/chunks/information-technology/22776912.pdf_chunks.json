@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 22776912.pdf\nIDENTITY: Candidate Profile (22776912.pdf)\nSUMMARY: Strategic planning, security, compliance, infrastructure, database, telecom. Proficient leader skilled in digital business technologies and customer satisfaction.\nSKILLS: Strategic planning, Security, Compliance, Infrastructure design, Database management, Telecommunications, Customer service, Project management, Network management, Asset management, Change management, Governance management, IT consulting",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 22776912.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: January 2007 to January 2015\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 22776912.pdf\nJOB TITLE: \nCOMPANY: Company Name\nDATES: January 2000 to January 2006\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 22776912.pdf\nDEGREE: BS: Information Technology\nINSTITUTION: Western Oregon University\nDATES: ",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 22776912.pdf\nDEGREE: Technology\nINSTITUTION: Belford University\nDATES: ",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 22776912.pdf\nDEGREE: Limited Energy Journeyman\nINSTITUTION: State of Oregon Portland Community College\nDATES: ",
+        "metadata": {
+            "source_file": "22776912.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

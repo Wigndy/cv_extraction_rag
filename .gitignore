@@ -8,7 +8,19 @@
 # !data/raw/INFORMATION-TECHNOLOGY/.gitkeep
 # !data/processed/.gitkeep
 # !data/vector_db/.gitkeep
-data
+
+# Ignore contents of backend/data, but keep the directories
+backend/data/*
+!backend/data/temp/
+!backend/data/processed/
+!backend/data/chunks/
+
+# Allow .gitkeep files to be tracked
+!.gitkeep
+!backend/data/temp/.gitkeep
+!backend/data/processed/.gitkeep
+!backend/data/chunks/.gitkeep
+
 configs
 
 .env

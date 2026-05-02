@@ -1,0 +1,58 @@
+[
+    {
+        "text": "SOURCE: 86184722.pdf\nIDENTITY: Candidate Profile (86184722.pdf)\nSUMMARY: Strategic HR counselor, experienced in labor relations, talent management, and employee development. Proven track record of reducing costs, improving compliance, and enhancing customer service.\nSKILLS: administrative, streamline, ADP, agency, auditing, benefits, budget, conferences, client, customer service, data entry, database, email, employee relations, special events, fax, filing, forms, HRIS, inventory, kronos, labor relations, legal, meetings, access, microsoft office suite, internet research, oracle, organizational, payroll processing, performance management, personnel, policies, processes, quick, receptionist, record keeping, recruiting, reporting, research, safety, sap, staffing, strategic, phone, employee development",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nJOB TITLE: HR Generalist\nCOMPANY: Company Name City, State\nDATES: Jan 2015 to Current\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nJOB TITLE: Sr. Administrative Assistant\nCOMPANY: Company Name City, State\nDATES: Jan 2012 to Jan 2015\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nJOB TITLE: Human Resource Representative\nCOMPANY: Company Name City, State\nDATES: Jan 2010 to Jan 2012\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nJOB TITLE: Human Resources Administrator\nCOMPANY: Company Name City, State\nDATES: Jan 2005 to Jan 2010\nDESCRIPTION: ",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nDEGREE: Master of Business Administration\nINSTITUTION: University of Phoenix City, State\nDATES: 2012",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 86184722.pdf\nDEGREE: B.S., Public Administration\nINSTITUTION: Virginia State University City, State\nDATES: 2007",
+        "metadata": {
+            "source_file": "86184722.pdf",
+            "department": "HR",
+            "chunk_type": "education"
+        }
+    }
+]

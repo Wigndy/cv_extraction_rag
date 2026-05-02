@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 68460556.pdf\nIDENTITY: Candidate Profile (68460556.pdf)\nSUMMARY: Seeking a full-time entry-level Information Technology Management role to apply education and skills in company operations.\nSKILLS: American Sign Language, Excellent communication, Customer service, Databases, English, Access, Excel, Power Point, Microsoft Word, Problem solving skills, Real-Time, Repairs, Supervisor, Translation, Website, Workshops",
+        "metadata": {
+            "source_file": "68460556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 68460556.pdf\nJOB TITLE: Information Technology Intern\nCOMPANY: Company Name, City, State\nDATES: 10/2014 - 05/2015\nDESCRIPTION: Assisted students with weak study areas and improved their ASL skills.",
+        "metadata": {
+            "source_file": "68460556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 68460556.pdf\nJOB TITLE: Information Technology Intern\nCOMPANY: Company Name, City\nDATES: 06/2012 - 08/2012\nDESCRIPTION: Managed human and technology interaction with supervisor. Developed website-database interface for House of Representatives.",
+        "metadata": {
+            "source_file": "68460556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 68460556.pdf\nJOB TITLE: Media Student Assistant\nCOMPANY: Company Name, City\nDATES: 02/2012 - 08/2012\nDESCRIPTION: Set up and maintained CART system. Assisted with equipment repairs and technology problems.",
+        "metadata": {
+            "source_file": "68460556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 68460556.pdf\nDEGREE: Information and Technology Management American Sign Language\nINSTITUTION: Bloomsburg University of Pennsylvania, City, State\nDATES: ",
+        "metadata": {
+            "source_file": "68460556.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

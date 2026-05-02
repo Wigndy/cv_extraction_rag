@@ -1,0 +1,50 @@
+[
+    {
+        "text": "SOURCE: 10247517.pdf\nIDENTITY: Candidate Profile (10247517.pdf)\nSUMMARY: Possesses an extensive background in Information Technology Management, with a Masters of Science degree and multiple certifications. Excels in planning, implementing, and evaluating systems, infrastructure, and staffing for complex initiatives.\nSKILLS: anti-virus, backup, cabling, Cisco, hardware, contracts, client, clients, database, disaster recovery planning, disaster recovery, email, ERP, features, imaging, information systems, inspection, LAN, laptops, Mechanical, access, office, enterprise, Network Administrator, network, networks, Nortel, peripherals, policies, printers, programming, real-time, scanner, scheduling, servers, script, shipping, switches, user documentation, telecom, WAN, wiring",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 10247517.pdf\nJOB TITLE: Information Technology Manager\nCOMPANY: Company Name\nDATES: 04/2013 - Present\nDESCRIPTION: Managed application database/hardware systems, evaluated and implemented hardware/software, maintained infrastructure, performed disaster recovery planning, administered licenses, defined IT procedures, created user accounts, inspected employee computers, coordinated special projects, enhanced network performance.",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10247517.pdf\nJOB TITLE: Network Analyst\nCOMPANY: Company Name\nDATES: 08/1987 - 06/2012\nDESCRIPTION: Improved LAN performance by 1,000%, led a team of network support specialists, configured and maintained Nortel and Juniper networks, reduced support requests, cut equipment costs, boosted productivity through thin client solution deployment.",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 10247517.pdf\nDEGREE: Master of Science : Leadership\nINSTITUTION: Walden University\nDATES: 2015",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 10247517.pdf\nDEGREE: Master of Science : Information Systems Management Project Management\nINSTITUTION: Walden University\nDATES: 2013",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    },
+    {
+        "text": "SOURCE: 10247517.pdf\nDEGREE: Bachelor of Science : Information Systems Management Mechanical Engineering\nINSTITUTION: Walden University\nDATES: Not specified",
+        "metadata": {
+            "source_file": "10247517.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

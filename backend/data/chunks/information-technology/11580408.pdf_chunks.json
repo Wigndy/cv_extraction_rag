@@ -1,0 +1,34 @@
+[
+    {
+        "text": "SOURCE: 11580408.pdf\nIDENTITY: Candidate Profile (11580408.pdf)\nSUMMARY: \nSKILLS: A+ Certified, Active Directory, billing, business process, C, cash flow, Cisco, Cisco Routers, hardware, network systems, content management, contracts, Coral, databases, database, delivery, disaster recovery, email, ERP, extranet, financial, firewalls, internet marketing, laptops, Lotus, Microsoft Access I, Microsoft Access, Microsoft Certified Professional, Microsoft Exchange, Office, Microsoft Office 97, Windows, Windows 2000, Windows 2003, Windows NT 4.0, Navision, network security, network, office suites, operating systems, organizing, report writer I, reporting, SCO Unix, servers, Microsoft SQL, SQL 2000, Sybase, system administrator, phones, voice mail, web site, website",
+        "metadata": {
+            "source_file": "11580408.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 11580408.pdf\nJOB TITLE: Information Technology Coordinator\nCOMPANY: Company Name City, State\nDATES: May 2000 - Current\nDESCRIPTION: ['Administered employee of the year / President Club Winner (2003 & 2008)', 'Continually evaluating and implementing new technology to save costs, maintain and improve business processes', 'Sole point of contact for 150 people including remote staff', 'Led $300,000 implementation of Navision ERP System', 'Continual in-house refinements and improvements to Navision', \"Upgraded from Navision's proprietary C/side database to SQL 2000 database\", 'Created and implemented custom databases for leading National and Regional financial institutions that increase revenue', 'Initiated use of remote control programs to train and help troubleshoot customer issues in a more timely manner', 'Final point of resolution for customer software and hardware issues', 'Responsible for onsite installation of industry specific hardware and software', 'Implemented ACT 2006 Customer relation management database', 'Led redesign of corporate website including online shopping cart, site costumer extranet, and employee intranet', 'Led the development and implemented electronic work order ticket which greatly improved cash flow', 'Led the revision of service call dispatch process to an automated delivery system via cell phones', 'Developed numerous in-house databases and reports to suite customers specific billing and reporting needs', 'Negotiated contracts and interfaced with vendors', 'Designed, launched and maintained company wide disaster recovery plan', 'Designed network infrastructure and led relocation team of corporate headquarters and regional warehouses', 'Responsible for maintaining and securing a Microsoft Windows 2003 environment', 'Employee systems configuration and training employees on a variety of network systems', 'Organizing and supporting communication between Management & Employees']",
+        "metadata": {
+            "source_file": "11580408.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 11580408.pdf\nJOB TITLE: Information Systems Manager\nCOMPANY: Company Name City, State\nDATES: January 1996 - Current\nDESCRIPTION: ['Designed in-house proprietary customer relation database', 'Designed and implemented Microsoft 2003 SBS', 'Led design of corporate website and internet marketing campaigns', 'Responsible for corporate network security and customer Wi-Fi network']",
+        "metadata": {
+            "source_file": "11580408.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 11580408.pdf\nDEGREE: Bachelor of Arts Business Management\nINSTITUTION: Curry College City, State\nDATES: 1988",
+        "metadata": {
+            "source_file": "11580408.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]

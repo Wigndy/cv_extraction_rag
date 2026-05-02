@@ -1,0 +1,42 @@
+[
+    {
+        "text": "SOURCE: 89413122.pdf\nIDENTITY: Candidate Profile (89413122.pdf)\nSUMMARY: Personable project manager with over eight years of experience in managing large and complex projects, developing project initiatives, and achieving performance targets. Strong in process improvement, results-oriented, detail-oriented, and information technology.\nSKILLS: Project Management, Information Design, Relationship Building, Information Technology, Procedure Development, Scheduling, Website Design, MS Office Suite, Training Development, Quality Processes, Event Planning, Work Breakdown Structures",
+        "metadata": {
+            "source_file": "89413122.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "profile"
+        }
+    },
+    {
+        "text": "SOURCE: 89413122.pdf\nJOB TITLE: Operations Research Analyst\nCOMPANY: Company Name\nDATES: 01/2010 to Current\nDESCRIPTION: Managed program testing incoming radiation detection equipment into New York, New Jersey, and Connecticut. Developed processes, coordinated with NYPD, and managed testing team.",
+        "metadata": {
+            "source_file": "89413122.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 89413122.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name\nDATES: 03/2003 to 01/2010\nDESCRIPTION: Managed data collection and test for a radiation detector prototype. Coordinated with NYPD, regional toll authorities, and National Laboratories.",
+        "metadata": {
+            "source_file": "89413122.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 89413122.pdf\nJOB TITLE: Information Technology Specialist\nCOMPANY: Company Name\nDATES: 08/1999 to 03/2003\nDESCRIPTION: Designed data structures and developed systems for science-related database applications. Assisted the Protecting Human Subject Program Manager.",
+        "metadata": {
+            "source_file": "89413122.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "experience"
+        }
+    },
+    {
+        "text": "SOURCE: 89413122.pdf\nDEGREE: BS in Management Information Systems\nINSTITUTION: New York University\nDATES: May 2005",
+        "metadata": {
+            "source_file": "89413122.pdf",
+            "department": "INFORMATION-TECHNOLOGY",
+            "chunk_type": "education"
+        }
+    }
+]
