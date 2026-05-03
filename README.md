@@ -64,7 +64,7 @@ Hiện tại query được nhập vào từ các quá trình trên sẽ lấy t
 >Mode 3 chúng ta sẽ trực tiếp call thẳng API của GEMINI và cho nó thực hiện đánh giá câu trả lời có chính xác với trọng tâm câu query không và cho thang điểm từ 1 đến 5.
 >****
 
-==================================================
+<!-- ==================================================
  KẾT QUẢ MODE 1: RETRIEVAL EVALUATION
 ==================================================
 - Số mẫu test: 50
@@ -82,7 +82,21 @@ Hiện tại query được nhập vào từ các quá trình trên sẽ lấy t
 ==================================================
 - Số mẫu đã chấm: 15
 - Điểm Relevance trung bình: 3.67 / 5.0
-- Báo cáo chi tiết: data/evaluation/evaluation_report.csv
+- Báo cáo chi tiết: data/evaluation/evaluation_report.csv -->
+Mode 1: Retrieval Evaluation
+- **Số mẫu test:** 50
+- **Hit Rate (Chính xác):** 58.00% (29/50)
+- **Độ trễ truy xuất trung bình:** 0.1817 giây
+- **File kết quả:** `data/evaluation/mode1_hits.json` (chứa các câu hỏi Hit)
+
+ Mode 2: Generation Evaluation
+- **Số mẫu xử lý thành công:** 15
+- **Độ trễ End-to-End trung bình:** 22.34 giây
+- **File kết quả:** `data/evaluation/eval_generation.json`
+Mode 3: Cloud Judge Evaluation
+- **Số mẫu đã chấm điểm:** 15
+- **Điểm Relevance trung bình:** 3.67 / 5.0
+- **Báo cáo chi tiết:** `data/evaluation/evaluation_report.csv`
 
 Ngoài ra có thể thực hiện đánh giá bám sát sâu hơn về chất lượng đầu ra ngay tại mỗi Phase thực hiện ở trên nhờ có file Resume.csv để có thể cải thiện hệ thống thêm ở từng Phase cụ thể. Như đối với phase 1 thì dùng các chỉ số như TFIDF và 1 số benchmark khác để xem nội dung được trích ra có giống với nội dung đề cập ở file Resume.csv không. Ở phase 2 thì có thể dùng 1 LLM khác mạnh hơn nữa để thực hiện đánh giá việc Extraction này có hallucination như trên và nội dung được đặt có đúng vị trí chính xác không.
 
