@@ -62,26 +62,25 @@ Hiện tại query được nhập vào từ các quá trình trên sẽ lấy t
 >Mode 1 thực hiện việc viết script tự động đặt câu hỏi -> ChromaDB trả về các source_file hoặc chunk_id. Script chỉ việc so sánh: if retrieved_id == expected_id: score += 1. Với chi phí phần cứng: ~0%, tuy nhiên chỉ thực hiện chạy 50 câu hỏi để các mode sau có thể thực hiện trong thời gian khả dĩ.
 >Mode 2 chọn ra 15 test chính xác từ Mode 1 sau đó thực hiện Inference end-to-end giống như mô tả trên
 >Mode 3 chúng ta sẽ trực tiếp call thẳng API của GEMINI và cho nó thực hiện đánh giá câu trả lời có chính xác với trọng tâm câu query không và cho thang điểm từ 1 đến 5.
->
->==================================================
->🎯 KẾT QUẢ MODE 1: RETRIEVAL EVALUATION
->==================================================
->- Số mẫu test: 50
->- Hit Rate (Chính xác): 58.00% (29/50)
->- Độ trễ truy xuất TB: 0.1817 giây
->- Đã lưu các câu hỏi Hit vào data/evaluation/mode1_hits.json
->==================================================
->📝 KẾT QUẢ MODE 2: GENERATION EVALUATION
->==================================================
->- Đã xử lý thành công: 15 mẫu
->- Độ trễ End-to-End TB: 22.34 giây
->- File kết quả: data/evaluation/eval_generation.json
->==================================================
->☁️ KẾT QUẢ MODE 3: CLOUD JUDGE EVALUATION
->==================================================
->- Số mẫu đã chấm: 15
->- Điểm Relevance trung bình: 3.67 / 5.0
->- Báo cáo chi tiết: data/evaluation/evaluation_report.csv
+==================================================
+ KẾT QUẢ MODE 1: RETRIEVAL EVALUATION
+==================================================
+- Số mẫu test: 50
+- Hit Rate (Chính xác): 58.00% (29/50)
+- Độ trễ truy xuất TB: 0.1817 giây
+- Đã lưu các câu hỏi Hit vào data/evaluation/mode1_hits.json
+==================================================
+📝 KẾT QUẢ MODE 2: GENERATION EVALUATION
+==================================================
+- Đã xử lý thành công: 15 mẫu
+- Độ trễ End-to-End TB: 22.34 giây
+- File kết quả: data/evaluation/eval_generation.json
+==================================================
+☁️ KẾT QUẢ MODE 3: CLOUD JUDGE EVALUATION
+==================================================
+- Số mẫu đã chấm: 15
+- Điểm Relevance trung bình: 3.67 / 5.0
+- Báo cáo chi tiết: data/evaluation/evaluation_report.csv
 
 Ngoài ra có thể thực hiện đánh giá bám sát sâu hơn về chất lượng đầu ra ngay tại mỗi Phase thực hiện ở trên nhờ có file Resume.csv để có thể cải thiện hệ thống thêm ở từng Phase cụ thể. Như đối với phase 1 thì dùng các chỉ số như TFIDF và 1 số benchmark khác để xem nội dung được trích ra có giống với nội dung đề cập ở file Resume.csv không. Ở phase 2 thì có thể dùng 1 LLM khác mạnh hơn nữa để thực hiện đánh giá việc Extraction này có hallucination như trên và nội dung được đặt có đúng vị trí chính xác không.
 
