@@ -83,17 +83,18 @@ Hiện tại query được nhập vào từ các quá trình trên sẽ lấy t
 - Số mẫu đã chấm: 15
 - Điểm Relevance trung bình: 3.67 / 5.0
 - Báo cáo chi tiết: data/evaluation/evaluation_report.csv -->
-Mode 1: Retrieval Evaluation
+    Mode 1: Retrieval Evaluation
 - **Số mẫu test:** 50
 - **Hit Rate (Chính xác):** 58.00% (29/50)
 - **Độ trễ truy xuất trung bình:** 0.1817 giây
 - **File kết quả:** `data/evaluation/mode1_hits.json` (chứa các câu hỏi Hit)
 
- Mode 2: Generation Evaluation
+    Mode 2: Generation Evaluation
 - **Số mẫu xử lý thành công:** 15
 - **Độ trễ End-to-End trung bình:** 22.34 giây
 - **File kết quả:** `data/evaluation/eval_generation.json`
-Mode 3: Cloud Judge Evaluation
+
+    Mode 3: Cloud Judge Evaluation
 - **Số mẫu đã chấm điểm:** 15
 - **Điểm Relevance trung bình:** 3.67 / 5.0
 - **Báo cáo chi tiết:** `data/evaluation/evaluation_report.csv`
