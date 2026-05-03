@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI CV Analysis & RAG Pipeline</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #f59e0b;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+            --border-color: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            color: white;
+            padding: 8rem 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .btn {
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent-color);
+            color: white;
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            background: var(--bg-white);
+            margin: 2rem 0;
+            padding: 3rem 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+
+        /* Pipeline Phases */
+        .phases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .phase-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .phase-card:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+
+        .phase-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .phase-number {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .phase-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .phase-desc {
+            font-size: 0.95rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fef08a 100%);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .highlight-box strong {
+            color: var(--secondary-color);
+        }
+
+        /* Evaluation Results */
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .result-card {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .result-card:hover {
+            border-color: var(--primary-color);
+            background: white;
+        }
+
+        .result-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .result-label {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .result-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 0.5rem;
+        }
+
+        /* Deployment Section */
+        .deployment-steps {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            margin-top: 2rem;
+        }
+
+        .step {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .step:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .step-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .code-block {
+            background: #1f2937;
+            color: #e5e7eb;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin-top: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        /* Limitations */
+        .limitation {
+            background: #fee2e2;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid #dc2626;
+            border-radius: 0.5rem;
+        }
+
+        .limitation strong {
+            color: #991b1b;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            margin: 1.5rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .phases {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">🤖 AI CV Analysis</div>
+            <ul class="nav-links">
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#evaluation">Evaluation</a></li>
+                <li><a href="#deployment">Deployment</a></li>
+                <li><a href="#github">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>AI CV Analysis & RAG Pipeline</h1>
+        <p>Automated CV Analysis & Retrieval-Augmented Generation for Candidate Screening</p>
+        <div class="cta-buttons">
+            <a href="#architecture" class="btn btn-primary">Learn More</a>
+            <a href="https://windycv.streamlit.app" target="_blank" class="btn btn-secondary">Try Demo</a>
+            <a href="https://github.com" target="_blank" class="btn btn-secondary">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Overview Section -->
+        <section class="section">
+            <h2>📋 Project Overview</h2>
+            <p>
+                Hệ thống này là một nền tảng phân tích và truy vấn hồ sơ ứng viên (CV) tự động bằng cách ứng dụng 
+                kiến trúc <strong>RAG (Retrieval-Augmented Generation)</strong>. Hệ thống cho phép người dùng tìm kiếm 
+                thông tin ứng viên trong kho dữ liệu (HR/IT) hoặc tải lên một CV hoàn toàn mới để AI phân tích và 
+                trả lời câu hỏi trực tiếp.
+            </p>
+            <div class="highlight-box">
+                <strong>🎯 Key Features:</strong>
+                <ul style="margin-left: 2rem; margin-top: 0.5rem;">
+                    <li>Dual extraction: Text-based + OCR (Tesseract) for maximum coverage</li>
+                    <li>LLM-powered structuring using Qwen2.5:7b</li>
+                    <li>Semantic chunking with embeddings (nomic-embed-text)</li>
+                    <li>ChromaDB vector storage for fast retrieval</li>
+                    <li>Tiered evaluation system optimized for limited hardware</li>
+                    <li>Hybrid deployment: Local Backend + Cloud Frontend</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Architecture Section -->
+        <section class="section" id="architecture">
+            <h2>🏗 System Architecture (Workflow Pipeline)</h2>
+            <p>Hệ thống được thiết kế thành các giai đoạn (Phases) xử lý tuần tự kèm với các tệp dữ liệu đầu ra:</p>
+
+            <div class="phases">
+                <div class="phase-card">
+                    <div class="phase-number">1️⃣</div>
+                    <div class="phase-title">Raw Data Input</div>
+                    <div class="phase-desc">
+                        Kho dữ liệu CV thô bao gồm 110 CV (HR) + 120 CV (IT) dưới dạng PDF files.
+                    </div>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-number">2️⃣</div>
+                    <div class="phase-title">Ingestion (Phase 1)</div>
+                    <div class="phase-desc">
+                        Trích xuất văn bản sử dụng kép: Text-based extraction + OCR (Tesseract).
+                    </div>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-number">3️⃣</div>
+                    <div class="phase-title">LLM Extraction (Phase 2)</div>
+                    <div class="phase-desc">
+                        Cấu trúc hóa dữ liệu với Qwen2.5:7b theo schema JSON định nghĩa.
+                    </div>
+                </div>
+
+                <div class="phase-card">
+                    <div class="phase-number">4️⃣</div>
+                    <div class="phase-title">Semantic Chunking (Phase 3)</div>
+                    <div class="phase-desc">
+                        Chia nhỏ data, tạo embeddings, lưu vào ChromaDB.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase Details -->
+            <h3>📝 Chi tiết từng Phase</h3>
+
+            <div style="margin-top: 2rem;">
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Phase 1: Ingestion (Trích xuất văn bản)</h4>
+                <p>Đọc và trích xuất nội dung từ các file PDF. Áp dụng cơ chế kép: <strong>Text-based</strong> (kéo chữ trực tiếp từ file digital) và <strong>OCR (Tesseract)</strong> (xử lý CV scan).</p>
+                <div class="highlight-box">
+                    <strong>💡 Chi tiết xây dựng - Phase 1:</strong><br>
+                    Khu vực xử lý chính nằm ở <code>src/ingestion</code> bao gồm 2 engine: 
+                    <code>ocr_engine</code> (pytesseract) và <code>pdf_parser</code>. Luồng xử lý thực hiện cả 2 phương pháp 
+                    trên cùng file để tránh kết quả None. Kết quả lưu tại <code>data/temp</code>: 
+                    <code>ingested_hr.json</code> và <code>ingested_information-technology.json</code>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Phase 2: LLM Extraction (Cấu trúc hóa)</h4>
+                <p>Văn bản hỗn độn từ Phase 1 được đưa qua <strong>Qwen2.5:7b</strong> chạy cục bộ via Ollama. LLM phân tích và chuẩn hóa theo JSON schema (Profile, Experience, Education, Projects).</p>
+                <div class="highlight-box">
+                    <strong>💡 Chi tiết xây dựng - Phase 2:</strong><br>
+                    Mục đích: Chuẩn hóa cấu trúc CV do mỗi người viết khác nhau. Đây là phase tốn thời gian nhất (giới hạn phần cứng). 
+                    Schema tối giản để inference nhanh. Ghi nhận: 2 file HR + 3 file IT bị hallucination (tổng 230 file, sai số ~2%). 
+                    Xử lý tại <code>chunker.py</code>. Kết quả lưu: 
+                    <code>backend/processed/hr_extracted.json</code> + <code>it_extracted.json</code>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Phase 3: Semantic Chunking & Indexing</h4>
+                <p>JSON được chia nhỏ theo cụm ngữ nghĩa (Profile, Experience, Education, Project). Chuyển thành Vector dùng <strong>nomic-embed-text</strong>. Lưu vào <strong>ChromaDB</strong>.</p>
+                <div class="highlight-box">
+                    <strong>💡 Chi tiết xây dựng - Phase 3:</strong><br>
+                    Embedding nhanh chóng. Output: <code>data/chunks</code> (chứa chunks để embedding) + <code>data/vector_db</code> (ChromaDB storage). 
+                    Mỗi file tạo 5-9 chunks. Phát hiện lỗi Phase 2 tại đây nhưng chi phí re-run Phase 2 quá cao, 
+                    nên xử lý ngay trong <code>chunker.py</code>
+                </div>
+            </div>
+        </section>
+
+        <!-- Evaluation Section -->
+        <section class="section" id="evaluation">
+            <h2>🧪 Model Evaluation (Tiered Strategy)</h2>
+            <p>
+                Chiến lược Đánh giá Phân tầng tối ưu cho MacBook 16GB. Chia làm 3 Mode qua <code>run_evaluation.py</code>:
+            </p>
+
+            <div class="results-grid" style="margin-top: 2rem;">
+                <div class="result-card">
+                    <div class="result-icon">🎯</div>
+                    <div class="result-label">Mode 1: Retrieval</div>
+                    <div class="result-value">58%</div>
+                    <small style="color: var(--text-light);">Hit Rate (50 queries)</small>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">⏱️</div>
+                    <div class="result-label">Mode 1: Latency</div>
+                    <div class="result-value">0.18s</div>
+                    <small style="color: var(--text-light);">Avg retrieval time</small>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">📝</div>
+                    <div class="result-label">Mode 2: E2E Latency</div>
+                    <div class="result-value">22.3s</div>
+                    <small style="color: var(--text-light);">With LLM inference</small>
+                </div>
+                <div class="result-card">
+                    <div class="result-icon">☁️</div>
+                    <div class="result-label">Mode 3: Relevance</div>
+                    <div class="result-value">3.67/5.0</div>
+                    <small style="color: var(--text-light);">Cloud Judge score</small>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">📊 Evaluation Methods</h4>
+                <div class="highlight-box">
+                    <strong>✅ Mode 1 - Retrieval Evaluation:</strong><br>
+                    Script tự động đặt câu hỏi → ChromaDB trả about source_file/chunk_id. 
+                    So sánh: <code>if retrieved_id == expected_id: score += 1</code>. 
+                    Chi phí phần cứng: ~0%. Test 50 queries.
+                </div>
+                <div class="highlight-box" style="margin-top: 1rem;">
+                    <strong>✅ Mode 2 - Generation Evaluation:</strong><br>
+                    Chọn 15 test chính xác từ Mode 1, inference end-to-end với Qwen2.5:7b local. 
+                    Đo độ trễ và chất lượng response.
+                </div>
+                <div class="highlight-box" style="margin-top: 1rem;">
+                    <strong>✅ Mode 3 - Cloud Judge Evaluation:</strong><br>
+                    Call Google Gemini 2.5 Flash API. Chấm điểm 1-5 dựa trên Answer Relevance. 
+                    Async + aiohttp optimization.
+                </div>
+            </div>
+        </section>
+
+        <!-- Deployment Section -->
+        <section class="section" id="deployment">
+            <h2>🚀 Deployment & API Guide</h2>
+            <p>
+                Mô hình <strong>Hybrid Deployment</strong> tách Backend (Docker/Local) và Frontend (Streamlit Cloud):
+            </p>
+
+            <div class="deployment-steps">
+                <div class="step">
+                    <div style="display: flex; align-items: baseline;">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Backend Setup (Docker)</div>
+                    </div>
+                    <p style="margin-left: 4rem; margin-top: 0.5rem;">
+                        FastAPI + ChromaDB được đóng gói Docker, chạy local trên máy tính. 
+                        Cung cấp REST API cho upload, truy vấn. Xử lý rác dữ liệu via <code>cleanup_orphan_collections</code>.
+                    </p>
+                    <div class="code-block">
+# Xây dựng và chạy backend
+docker compose up -d --build
+
+# Tắt backend
+docker compose down
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div style="display: flex; align-items: baseline;">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Frontend (Streamlit Cloud)</div>
+                    </div>
+                    <p style="margin-left: 4rem; margin-top: 0.5rem;">
+                        Web UI hosted trên Streamlit Community Cloud: 
+                        <a href="https://windycv.streamlit.app" target="_blank">https://windycv.streamlit.app</a>
+                    </p>
+                    <div class="code-block">
+pip install -r frontend/requirements.txt
+streamlit run frontend/app.py
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div style="display: flex; align-items: baseline;">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Tunnel Connection (Ngrok)</div>
+                    </div>
+                    <p style="margin-left: 4rem; margin-top: 0.5rem;">
+                        Ngrok tạo đường hầm an toàn từ Streamlit Cloud → Backend Local. 
+                        Copy URL HTTPS và cập nhật <code>BACKEND_URL</code> trong <code>frontend/app.py</code>.
+                    </p>
+                    <div class="code-block">
+ngrok http 8000
+                    </div>
+                </div>
+            </div>
+
+            <h3>⚠️ Limitations & Trade-offs</h3>
+            <div class="limitation">
+                <strong>Ngrok URL Dependency:</strong> Link thay đổi mỗi lần khởi động, cần update thủ công mỗi ngày 
+                (trừ khi dùng bản trả phí).
+            </div>
+            <div class="limitation">
+                <strong>Hardware Constraints:</strong> Ingestion + Qwen2.5:7b inference tốn nhiều RAM. 
+                Multiple cloud sessions có thể gây bottleneck hoặc treo máy local.
+            </div>
+            <div class="limitation">
+                <strong>Orphan Sessions:</strong> Streamlit làm mới session_state khi reload (F5), mất dấu session_id cũ. 
+                Nếu user không bấm "Xóa CV", collections tạm lưu ổ cứng. Cần giải pháp TTL/cleanup tốt hơn.
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section class="section">
+            <h2>🛠 Technology Stack</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🔧 Backend</h4>
+                    <ul style="list-style: none; color: var(--text-light); line-height: 1.8;">
+                        <li>✓ FastAPI (REST API)</li>
+                        <li>✓ ChromaDB (Vector DB)</li>
+                        <li>✓ Qwen2.5:7b (LLM)</li>
+                        <li>✓ Ollama (Local LLM runtime)</li>
+                        <li>✓ Docker (Container)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🎨 Frontend</h4>
+                    <ul style="list-style: none; color: var(--text-light); line-height: 1.8;">
+                        <li>✓ Streamlit (Web UI)</li>
+                        <li>✓ Streamlit Cloud (Hosting)</li>
+                        <li>✓ Ngrok (Tunneling)</li>
+                        <li>✓ Session Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">📊 Processing</h4>
+                    <ul style="list-style: none; color: var(--text-light); line-height: 1.8;">
+                        <li>✓ Tesseract (OCR)</li>
+                        <li>✓ PyPDF (Text extraction)</li>
+                        <li>✓ nomic-embed-text (Embeddings)</li>
+                        <li>✓ Google Gemini 2.5 (Judge)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- File Structure Section -->
+        <section class="section">
+            <h2>📁 Project Structure</h2>
+            <div class="code-block" style="margin-top: 1.5rem;">
+IMTSolutions/
+├── backend/
+│   ├── src/
+│   │   ├── ingestion/     # Phase 1: PDF parsing + OCR
+│   │   ├── extraction/    # Phase 2: LLM structuring
+│   │   ├── rag/          # Phase 3: Chunking + Indexing
+│   │   ├── evaluation/   # Metrics & assessment
+│   │   └── api/          # FastAPI endpoints
+│   ├── scripts/          # Automation scripts
+│   └── Dockerfile
+├── frontend/
+│   └── app.py           # Streamlit Web UI
+├── notebooks/           # EDA & analysis
+├── data/
+│   ├── raw/            # Raw PDF files
+│   ├── processed/      # Extracted JSON
+│   ├── chunks/         # Semantic chunks
+│   ├── vector_db/      # ChromaDB storage
+│   └── evaluation/     # Test results
+└── README.md
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section" style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white;">Ready to Get Started?</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Explore the project and see the RAG pipeline in action.</p>
+            <div class="cta-buttons" style="justify-content: center;">
+                <a href="https://windycv.streamlit.app" target="_blank" class="btn btn-primary">Try Live Demo</a>
+                <a href="#github" class="btn btn-secondary" style="border-color: white; color: white;">View on GitHub</a>
+                <a href="#deployment" class="btn btn-secondary" style="border-color: white; color: white;">Deploy Guide</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3 style="margin-bottom: 1rem;">AI CV Analysis & RAG Pipeline</h3>
+            <p style="margin-bottom: 1.5rem; opacity: 0.9;">
+                Automated candidate screening powered by LLMs and semantic search
+            </p>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank">GitHub Repository</a>
+                <a href="https://windycv.streamlit.app" target="_blank">Live Demo</a>
+                <a href="#deployment" target="_blank">Documentation</a>
+                <a href="https://drive.google.com/file/d/1K63XPmrJE7k_pMw2KYUAWoapPg3_5s_a/view" target="_blank">Detailed Report</a>
+            </div>
+            <hr style="margin: 2rem 0; opacity: 0.2;">
+            <p style="opacity: 0.8; font-size: 0.9rem;">
+                © 2026 AI CV Analysis Project. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
